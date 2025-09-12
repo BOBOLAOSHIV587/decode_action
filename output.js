@@ -1,9 +1,369 @@
-//Fri Sep 12 2025 12:48:22 GMT+0000 (Coordinated Universal Time)
+//Fri Sep 12 2025 17:08:59 GMT+0000 (Coordinated Universal Time)
 //Base:<url id="cv1cref6o68qmpt26ol0" type="url" status="parsed" title="GitHub - echo094/decode-js: JS混淆代码的AST分析工具 AST analysis tool for obfuscated JS code" wc="2165">https://github.com/echo094/decode-js</url>
 //Modify:<url id="cv1cref6o68qmpt26olg" type="url" status="parsed" title="GitHub - smallfawn/decode_action: 世界上本来不存在加密，加密的人多了，也便成就了解密" wc="741">https://github.com/smallfawn/decode_action</url>
-var CHBd1 = $request['\x68\x65\x61\x64\x65\x72\x73'];
-CHBd1['\x43\x6f\x6f\x6b\x69\x65'] = '\x4d\x55\x53\x49\x43\x5f\x55\x3d\x30\x30\x46\x38\x44\x38\x32\x39\x46\x43\x45\x33\x33\x32\x41\x46\x37\x36\x35\x46\x44\x37\x41\x44\x30\x33\x31\x37\x43\x35\x46\x32\x34\x43\x37\x31\x37\x38\x31\x46\x36\x34\x36\x41\x32\x41\x39\x32\x30\x46\x44\x37\x43\x31\x39\x34\x34\x45\x30\x44\x44\x38\x33\x45\x36\x32\x33\x37\x46\x34\x34\x34\x32\x45\x46\x42\x36\x42\x34\x44\x31\x37\x36\x30\x42\x42\x36\x44\x44\x34\x31\x37\x39\x38\x33\x39\x32\x39\x34\x46\x44\x30\x36\x37\x35\x35\x45\x44\x30\x42\x41\x34\x38\x32\x38\x41\x30\x36\x36\x42\x44\x33\x36\x42\x43\x37\x42\x46\x34\x46\x46\x42\x42\x34\x42\x32\x45\x32\x34\x46\x31\x30\x44\x43\x35\x35\x45\x30\x44\x37\x38\x34\x31\x31\x41\x36\x36\x37\x38\x31\x34\x36\x33\x42\x44\x46\x39\x30\x33\x44\x36\x45\x33\x38\x46\x38\x43\x38\x31\x43\x46\x31\x46\x41\x43\x33\x43\x46\x36\x45\x42\x35\x33\x43\x36\x43\x31\x43\x39\x38\x34\x43\x45\x46\x43\x30\x33\x46\x41\x32\x45\x43\x44\x34\x37\x39\x43\x45\x34\x36\x39\x30\x35\x44\x45\x45\x32\x45\x39\x31\x43\x46\x42\x36\x41\x38\x42\x45\x31\x43\x37\x36\x44\x44\x39\x39\x45\x34\x41\x37\x33\x38\x36\x34\x33\x30\x46\x42\x42\x42\x46\x39\x37\x43\x32\x38\x33\x34\x43\x34\x43\x44\x42\x31\x42\x36\x37\x32\x38\x35\x38\x35\x36\x45\x41\x38\x31\x32\x41\x32\x30\x34\x35\x31\x42\x34\x31\x34\x38\x39\x45\x30\x36\x34\x41\x36\x39\x32\x34\x46\x35\x33\x31\x41\x38\x38\x32\x37\x30\x36\x30\x32\x32\x39\x42\x41\x34\x41\x39\x35\x45\x45\x42\x44\x35\x31\x42\x33\x36\x39\x31\x41\x36\x34\x41\x35\x32\x36\x30\x38\x37\x43\x32\x38\x36\x36\x34\x38\x39\x43\x45\x37\x34\x35\x33\x43\x35\x45\x34\x46\x41\x41\x36\x36\x30\x36\x31\x33\x39\x30\x35\x41\x34\x38\x33\x32\x38\x39\x32\x39\x37\x30\x38\x44\x34\x30\x34\x34\x45\x34\x44\x39\x32\x38\x42\x36\x39\x37\x36\x41\x30\x38\x30\x42\x35\x32\x42\x38\x43\x41\x32\x44\x46\x44\x32\x42\x41\x37\x42\x43\x38\x36\x43\x45\x31\x30\x42\x39\x32\x31\x45\x37\x32\x31\x38\x34\x35\x35\x33\x46\x45\x39\x36\x34\x41\x31\x36\x32\x32\x46\x33\x37\x31\x30\x35\x31\x30\x33\x35\x38\x46\x37\x39\x45\x39\x35\x46\x35\x43\x35\x42\x30\x41\x41\x34\x39\x30\x39\x30\x46\x43\x43\x30\x32\x45\x46\x37\x41\x36\x44\x43\x45\x45\x42\x43\x39\x37\x36\x32\x35\x39\x38\x38\x35\x44\x45\x35\x46\x42\x35\x32\x31\x42\x46\x44\x31\x36\x41\x34\x34\x45\x43\x39\x43\x33\x36\x34\x34\x42\x43\x41\x31\x44\x43\x41\x46\x37\x35\x38\x31\x41\x43\x43\x30\x35\x42\x46\x34\x44\x35\x44\x38\x34\x45\x31\x43\x36\x37\x41\x44\x42\x37\x33\x32\x39\x36\x46\x35\x45\x46\x30\x43\x33\x33\x38\x46\x44\x30\x35\x35\x44\x44\x33\x31\x42\x36\x35\x30\x36\x42\x30\x46\x36\x33\x30\x31\x45\x39\x35\x35\x32\x42\x33\x34\x45\x43\x34\x39\x42\x31\x45\x39\x43\x36\x46\x32\x33\x30\x46\x41\x33\x36\x38\x34\x32\x42\x42\x35\x42\x32\x44\x41\x38\x46\x42\x45\x35\x42\x41\x42\x33\x45\x33\x44\x45\x37\x37\x30\x41\x37\x35\x31\x37\x38\x38\x35\x31\x36\x41\x36\x37\x44\x42\x41\x38\x46\x32\x41\x35\x32\x32\x33\x43\x39\x45\x44\x36\x36\x36\x43\x33\x30\x45\x33\x31\x31\x42\x34\x38\x32\x35\x36\x44\x30\x31\x32\x3b \x61\x70\x70\x76\x65\x72\x3d\x39\x2e\x33\x2e\x34\x31\x3b \x64\x65\x76\x69\x63\x65\x49\x64\x3d\x63\x33\x37\x37\x39\x35\x66\x61\x37\x63\x63\x30\x62\x64\x34\x64\x33\x38\x62\x32\x34\x32\x65\x33\x64\x61\x38\x34\x39\x37\x61\x36\x3b \x6f\x73\x3d\x69\x50\x68\x6f\x6e\x65 \x4f\x53\x3b \x6f\x73\x76\x65\x72\x3d\x31\x38\x2e\x34\x2e\x31\x3b \x6d\x61\x63\x68\x69\x6e\x65\x69\x64\x3d\x69\x50\x68\x6f\x6e\x65\x31\x37\x2e\x32\x3b ';
-delete CHBd1['\x4d\x43\x6f\x6e\x66\x69\x67\x2d\x49\x6e\x66\x6f'];
-$done({
-  headers: CHBd1
+(function (g) {
+  var e, Y, O, f, s, r;
+  function N(h, N) {
+    return h << N;
+  }
+  function J(h, N) {
+    return h >> N;
+  }
+  function o(h, N) {
+    return h <= N;
+  }
+  function F(h, N) {
+    return h % N;
+  }
+  function i(h, N) {
+    return h * N;
+  }
+  function z(h, N) {
+    return h + N;
+  }
+  function j(h, N) {
+    return h - N;
+  }
+  function E(h, N) {
+    return h / N;
+  }
+  function d(h, N) {
+    return h < N;
+  }
+  function q(h, N) {
+    return h > N;
+  }
+  function y(h, N) {
+    return h >= N;
+  }
+  function W(h, N, U) {
+    return h[N] = U, h;
+  }
+  Y = W;
+  let $ = (() => 'object|_$a'.split('|'))();
+  (s = Object.assign) && 0 || (e = JSON.parse);
+  function v(h) {
+    return j(h, 67159);
+  }
+  function U(h) {
+    return z(h, 53911);
+  }
+  r = U;
+  O = v;
+  let L = ['eNp1VVlvGkkQ/isjtA9ZOcZdfXcQD30mjgMBHxBblqJhGPCYMWAOX1H++xZ4k1Wyu/3A0DV1fHV8Nd8atydF413jpszH5WrdeNuo9/e7YjGfVNPDaj5ZoLC7F27X5eown5bzDYr+2Is6F2fH/utFmxBGlKM+aUe8J14HTamLSTAdCFWSWMGDJRR4lFxSE2lIzDsug3XKgvEmEicp4RQSC847KZ2ICUIyBihlMqmkfKCcGqI9T4obHgNFiVHKcyssFVxx7gCIddHQiJb4h7moReCWJofhveLMBMW8EZQqS2MyIUVHOOdCSMW9sjJxo5m3giYihAhRSuW45SZhFIkaLGompUkOHLGJUcW1kTEwBC65CY47oSwHDYEwam2IRia8YTwHKSQgklFjEkKVgnJHpYigUgSJlbHcYrlAGEmDxgSwiJx6MBKUlFhb7ix1aGq5izzpAAGzBi3RrwsMuCEpGRIM8QkcZZ5GxCc1V4ZjFiKguUHsCntAifEiCW28AvCeoTfjQAufsCkSAvZNaS1VRHTGW6UUc0kJFYgNzHrPgSCsnWKUVBJDKMXUUiLJskCZ81oDByyx0l47b6iMLjkMw1KKAbOlHMAYpo2OIlqiWlmRV+P2t+tGna83x8/b+fH4uvHuulGA1pNxLiQz5QjrICZ5ridA86IolVHyuvH2ulH9o69HdCIU05ponUNBCwWMT3JJRT42TImf+gMc+Gox3xtRQhlhjOxf/gDwmwIlAHDd+N7KRtuqHj+Uq7ZgnLaydSgfqqI8HrdNWRAsN5Ucn3rEeZGLgo5EWRpejPMRJnmTz+dl3R5X682qGm03GKCVVeNJjhx6PYf/8fPjtLJlXsyQg+fPy7K9KusyX5etLF8ud3BME5oSdcY/8FyGQ2Ofjp6q/rpYdtP7Ol2cxrwvzy7gcQPrye3ispXFQfes04YmaaLpYt2uejeLeZl9Ptvddm5BNFkTWtldXtxU8xK79KoCvInZdzv+OLRv5w+P9awJigKjRINAsE0CTbYHNyuf28fb095gcFew4XBbm8n5PuuHtqM4qdzIQ5wfd8iJJ4eOK3fohU24MkLk4FrZxenZV9vrYSDHGSGRCQMuRE+Q1oErL5wS1hLcKxYsJ9QT5HWIghNltLSKeu2RYyEJ3DKGAUgHFILUilqTopUGYRshCOwSCsftPnRPzvsFuvfLx/rmht/fXoi6fLp/LgcWz+iqugjdrj+dT+2wQ1dxup0eDW9Ppt1B//boaXPTn/p5P8w65YGrz4en51+GaXo7HXYPpvV9fL+aFau6O/Gh82LYZnHzQfef66k+m1wqUcATyPurvLp8cAcH7EQ99NYHB9NVr1t3Qnnwks6Hz2RxNQj94tPgc5y8pE9Qd+a6xAvr374v6v64tx2edOj0w2h2Oeg+9UR/5c1EibsjfTp/fjwoTOdjrw/jdRs3+fB1ky9eqrrOj0STZG9e+9vKfO8i+zkOGYiv7CtkdTUrs05e7ERf/szsclmXw3J0Um2OJBE4giCyNycfzjuf3r7qvi+L2eLPrLMYVXV5BLjwuM58vdiOO9t1VRyRnU3WLTe7YX4V6SYlTUYQ3WCPDtfCy4qPHuXyJIXjq7NiuUBaovThJ0dBM4LfCuTvKxv2tN0xQiGrv6N40/v4cb5Z0w8M3NWXu+XvDhgYjlvjVwe0ucPx6qAgg1J6su3W1N6R0/p3B8JoAvJXewzfFH/b/86Af9njx4SD+b8UvmM1JvtqFIvFrCob3/8CnR0k3g=='],
+    w,
+    m = String.fromCharCode,
+    V = Uint8Array,
+    A = Uint16Array,
+    a = Uint32Array;
+  f = typeof window === z('obje', 'ct') && window || typeof self === 'object' && self || exports;
+  let h = (function (h) {
+    var s, v, L, j;
+    v = W;
+    const U = 'atob'.split('|');
+    (((null || (s = function (m) {
+      var s, r, h, N, y, U, j;
+      (((U = 403) || 8) && (h = -320) && false || (j = 30)) && 0 || (s = {
+        l: -93,
+        g: 806,
+        r: 2,
+        b: 67159,
+        k: 81,
+        c: 'leng',
+        s: function () {
+          return U *= s.r, U -= 408;
+        },
+        m: () => U += s.l
+      });
+      while (U + h + j != 88) v: switch (U + h + j) {
+        case 657:
+        case 214:
+        default:
+          return N;
+        case 32:
+        case 990:
+        case 781:
+        case 384:
+          return s.f = N;
+        case 113:
+          delete s.t;
+          N = {};
+          s.m();
+          break v;
+        case 228:
+        case 883:
+        case 20:
+          y = O(s.b);
+          for (r = m[z((j == -44 || s).c, 'th')]; (h == (j == 30 ? 39 : s.p) ? undefined : d)(s.o = y, r); y++) N[(s.q = m).charAt(y)] = j == (-23 == h ? 47 : 30) && y;
+          U += 83;
+          break v;
+      }
+    }('ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/'))) && 0 || (j = function (j) {
+      var L, z, y, h;
+      const U = (() => v(v(v(v(v(v(v(v(v(v(v(v({}, 'o', 53907), 'W', 'charAt'), 'K', 67159), 'm', 53893), 'f', 53910), 'X', 53899), 'j', 53909), 'q', 53905), 'Q', 53908), 'w', 53903), 'Z', 53656), 'n', 'length'))();
+      return (h = j.length) && 0 || (z = F(h, r(-U.o)), L = (q(h, O(67159)) ? N(s[j[U.W](O(U.K))], r(-U.m)) : O(67159)) | (q(h, r(-53910)) ? N(s[j.charAt(r(-U.f))], r(-U.X)) : O(67159)) | (q(h, r(-U.j)) ? N(s[j[U.W](r(-53909))], r(-U.q)) : O(U.K)) | (q(h, r(-U.Q)) ? s[j[U.W](r(-53908))] : O(U.K)), y = [m(L >>> r(-53895)), m(L >>> r(-U.w) & r(-U.Z)), m(L & r(-53656))], y[U.n] -= [O(67159), O(U.K), r(-U.j), r(-U.f)][z], y.join(''));
+    }) || true) && (L = function (h) {
+      return h.replace(/\S{1,4}/g, j);
+    }) || 8) && v(h, U[0], function (h) {
+      return L(String(h)[z('repl', 'ace')](/[^A-Za-z0-9\+\/]/g, ''));
+    });
+  }(f), function (w) {
+    var N0, P, Q, h, v, c, U, $, k, u, B, D, C, e, g, M, T, l, S, Y, f, H, G, t, h0, X;
+    u = W;
+    let R = u(u(u(u(u(u(u(u(u(u(u(u(u(u(u(u(u(u(u(u(u(u(u(u(u(u(u(u(u(u(u(u(u(u(u(u(u(u(u(u(u({}, 'o', 67159), 'W', 'I'), 'K', 'J'), 'm', 'prototype'), 'f', 'ined'), 'X', 53895), 'j', 53894), 'q', 53893), 'Q', 53904), 'w', 53902), 'Z', 53906), 'n', 53900), 'N', 53899), 'h', 53908), '_', 53909), 'I', 53897), 'b', 53910), 'x', 53896), 'g', 53905), 'i', 53903), 'l', 53888), 'E', 53884), 'F', 53880), 'J', 53852), 'A', 53796), 'S', 53748), 'C', 53653), 'k', 53907), 'G', 53898), 'M', 53886), 'r', 53878), 'z', 53846), 'B', 53814), 'P', 53718), 'U', 53654), 'd', 49814), 'R', 29334), 's', 53901), 'a', 53623), 'e', 53656), 't', 53881);
+    ((D = r(-53903)) && 0 || (k = true) || 2) && (U = void O(67159));
+    function b(h) {
+      throw h;
+    }
+    function Z(U, j) {
+      var s, h, m, y;
+      y = W;
+      const v = [67159, 'inp', 'c', 'index', 'method', 53896, 'err:', 53903, 53880, 53879, 'bufferSize', 'buffer', 'bufferType'];
+      h = this;
+      (m = void O(v[0]), y(y(h, z(v[1], 'ut'), U), v[2], O(v[0])), j || !(j = {})) && (j[v[3]] && (h.c = j.index) && 0 || j.verify && (h.N = j.verify));
+      ((s = U[h.c++]) || 8) && (m = U[h[v[2]]++]);
+      switch (s & r(-v[5])) {
+        case D:
+          h[v[4]] = D;
+      }
+      (O(v[0]) !== F(z(N(s, r(-53903)), m), r(-53880)) && b(Error(z(v[6], F(z(N(s, r(-v[7])), m), r(-v[8]))))) && 0 || m & r(-v[9]) && b(Error('not')) || 8) && y(h, 'B', new I(U, y(y(y(y({}, 'index', h[v[2]]), 'bufferSize', j[v[10]]), v[12], j[z(v[11], 'Type')]), 'resize', j[z('resi', 'ze')])));
+    }
+    ((l = (u(Z.prototype, 'p', function () {
+      var v, y, h, m, U;
+      y = W;
+      const s = ['input', 67159, 'p', 'B', 'c', 'N', 53903];
+      return ((U = this) && 0 || (h = U[s[0]])) && 0 || (m = void O(s[1]), v = void O(67159), m = U[s[3]][s[2]](), y(U, s[4], U.B.c), U[s[5]] && (v = (N(h[U[s[4]]++], r(-53887)) | N(h[U[s[4]]++], r(-53895)) | N(h[U.c++], r(-s[6])) | h[U.c++]) >>> O(67159), v !== jb(m) && b(Error('i32c'))), m);
+    }), O(R.o))) || 5) && (C = r(-53910));
+    function I(U, y) {
+      var h, N;
+      N = W;
+      const v = (() => ['l', 'm', 'c', 67159, 'input', false, 'index', 'bufferSize', 'n', 'resize', 21143, 53653, 'a', 'f', 'imd'])();
+      h = this;
+      (N(N(N(N(N(N(N(h, v[0], []), v[1], r(-21143)), 'e', h.g = h[v[2]] = h.q = O(v[3])), v[4], e ? new V(U) : U), 's', v[5]), 'n', C), 'C', false), y || !(y = {})) && (((y[v[6]] && (h.c = y.index) || 4) && y.bufferSize && (h[v[1]] = y[v[7]]) && 0 || y.bufferType && (h[v[8]] = y.bufferType)) && 0 || y[v[9]] && (h.C = y.resize));
+      switch (h.n) {
+        case l:
+          h.b = r(-v[10]);
+          h.a = new (e ? V : Array)(z(z(r(-v[10]), h[v[1]]), r(-v[11])));
+          break;
+        case C:
+          h.b = O(v[3]);
+          h[v[12]] = new (e ? V : Array)(h.m);
+          h[v[13]] = h.K;
+          h.t = h.I;
+          h.o = h.J;
+          break;
+        default:
+          b(Error(v[14]));
+      }
+    }
+    u(u(I.prototype, 'K', function (L) {
+      var h, a, m, o, A, U, y, v;
+      let s = (() => 'length|input|a|v|number|u'.split('|'))();
+      return (v = this) && 0 || (y = z(E(v[s[1]][s[0]], v.c), r(-53910)) | O(67159), h = void O(67159), a = void O(67159), o = void O(67159), U = v[s[1]], m = v[s[2]], L && ('number' === typeof L[s[3]] && (y = L.v), s[4] === typeof L.G && (y += L.G)), q(r(-53909), y) ? (h = E(j(U.length, v.c), v[s[5]][r(-53909)]), o = i(r(-53653), E(h, r(-53909))) | O(67159), a = d(o, m[z('leng', 'th')]) ? z(m[s[0]], o) : N(m[z('leng', 'th')], r(-53910))) : a = i(m[s[0]], y), e ? (A = new V(a), A.set(m)) : A = m, v.a = A);
+    }), R.W, function () {
+      var h, y, U;
+      let N = (() => 'b|th|a|subarray|ray'.split('|'))();
+      return (h = this) && 0 || (y = h[N[0]], e ? h.C ? (U = new V(y), U.set(h[N[2]][z('subar', N[4])](O(67159), y))) : U = h.a[N[3]](O(67159), y) : (q(h.a[z('leng', 'th')], y) && (h.a[z('leng', N[1])] = y), U = h[N[2]]), h[z('buff', 'er')] = U);
+    }) && 0 || (I[R.m][R.K] = function (m, a) {
+      var L, U, w, N, g, s, A, $, i;
+      i = W;
+      function V() {
+        return 'length'.split('|');
+      }
+      let F = V();
+      for ((((w = this) && 0 || (U = w.a) || 2) && ($ = w.b) || 2) && i(w, 'u', m) && 0 || (s = U[F[0]]); r(-53655) !== (A = K(w, m));) if (q(r(-53655), A)) {
+        y($, s) && (U = w.f(), s = U[F[0]]) && 0 || (U[$++] = A);
+      } else {
+        for ((((((N = j(A, r(-53654))) && 0 || (L = v[N]) || 9) && d(O(67159), G[N]) && (L += n(w, G[N])) || 5) && (A = K(w, a)) || 8) && (g = h[A]) || 7) && d(O(67159), f[A]) && (g += n(w, f[A])) && false || q(z($, L), s) && (U = w.f(), s = U.length); L--;) U[$] = U[j($++, g)];
+      }
+      for (; o(r(-53903), w.e);) w.e -= r(-53903), w.c--;
+      i(w, 'b', $);
+    });
+    function s(v) {
+      var $, z, f, j, A, y, W, w, L, p, h, s, U;
+      let m = 'length|POSITIVE_INFINITY'.split('|');
+      ((L = v[m[0]]) || 2) && (y = O(67159)) && 0 || (W = Number[m[1]]);
+      for (f = O(67159); d(f, L); ++f) q(v[f], y) && (y = v[f]), d(v[f], W) && (W = v[f]);
+      for (j = (s = N(r(-53910), y), A = new (e ? a : Array)(s), h = r(-53910), w = O(67159), r(-53909)); o(h, y);) {
+        for (f = O(67159); d(f, L); ++f) if (v[f] === h) {
+          for (p = (z = O(67159), U = w, O(67159)); d(p, h); ++p) z = N(z, r(-53910)) | U & r(-53910), U >>= r(-53910);
+          for (p = ($ = N(h, r(-53895)) | f, z); d(p, s); p += j) A[p] = $;
+          ++w;
+        }
+        ((++h || 6) && (w <<= r(-53910)) || '1') && (j <<= r(-53910));
+      }
+      return [A, y, W];
+    }
+    function K(o, a) {
+      var s, h, v, A, U, f, m, $, w, q;
+      f = W;
+      function g() {
+        return f(f(f(f(f(f(f(f({}, 'o', 'inp'), 'W', 'c'), 'K', 'length'), 'm', 53903), 'f', 53910), 'X', 53895), 'j', 'g'), 'q', 11624);
+      }
+      const L = g();
+      for (((((v = o.g) && 0 || (A = o.e) || 2) && (U = o[z(L.o, 'ut')]) && 0 || (w = o[L.W]) || 3) && (h = U[L.K]) && 0 || (s = a[O(67159)])) && 0 || ($ = a[r(-53910)]); d(A, $) && !y(w, h);) v |= N(U[w++], A), A += r(-L.m);
+      return q = s[v & j(N(r(-L.f), $), r(-L.f))], m = q >>> r(-L.X), f(f(f(o, L.j, J(v, m)), 'e', j(A, m)), 'c', w), q & r(L.q);
+    }
+    function L(q) {
+      var m, U, N, L, h, j, o, a, v;
+      m = W;
+      const y = m(m(m(m(m(m(m({}, 'o', 53654), 'W', 53907), 'K', 'th'), 'm', 67159), 'f', 53908), 'X', 'leng'), 'j', 'call');
+      function A(L, q, v) {
+        var N, s, h, y, a, m;
+        m = W;
+        function U() {
+          return [67159, 53908, 53895];
+        }
+        let j = U();
+        ((y = this) || 4) && (h = y.z);
+        for (N = O(j[0]); d(N, L);) switch (s = K(y, q), s) {
+          case r(-j[2]):
+            for (a = z(r(-j[1]), n(y, r(-53909))); a--;) v[N++] = h;
+            break;
+          case r(-53894):
+            for (a = z(r(-j[1]), n(y, r(-j[1]))); a--;) v[N++] = O(j[0]);
+            h = O(67159);
+            break;
+          case r(-53893):
+            for (a = z(r(-53900), n(y, r(-53904))); a--;) v[N++] = O(67159);
+            h = O(j[0]);
+            break;
+          default:
+            h = v[N++] = s;
+        }
+        return m(y, 'z', h), v;
+      }
+      (((((v = z(n(q, r(-53906)), r(-y.o))) || true) && (h = z(n(q, r(-53906)), r(-53910))) || 3) && (L = z(n(q, r(-y.W)), r(-53907))) || 8) && (o = new (e ? V : Array)(g[z('leng', y.K)])) && null || (j = void O(y.m))) && 0 || (a = void O(y.m));
+      for (U = O(y.m); d(U, L); ++U) o[g[U]] = n(q, r(-y.f));
+      if (!e) {
+        for (L = (U = L, o[z(y.X, 'th')]); d(U, L); ++U) o[g[U]] = O(67159);
+      }
+      ((((N = s(o)) || 8) && (j = new (e ? V : Array)(v)) || '1') && (a = new (e ? V : Array)(h)) || '0') && m(q, 'z', O(67159)) && 0 || q.o(s(A[y.j](q, v, N, j)), s(A[y.j](q, h, N, a)));
+    }
+    function n(L, A) {
+      var h, s, v, q, U, o, a;
+      s = W;
+      let m = (() => 'g|e|c|leng'.split('|'))();
+      for ((((v = L[m[0]]) || '1') && (h = L[m[1]]) && 0 || (a = L.input) || 2) && (o = L[m[2]]) && null || (U = a[z(m[3], 'th')]); d(h, A);) y(o, U) && b(Error('bk')), v |= N(a[o++], h), h += r(-53903);
+      return q = v & j(N(r(-53910), A), r(-53910)), s(s(s(L, 'g', v >>> A), m[1], j(h, A)), 'c', o), q;
+    }
+    Y = (I[R.m].p = function () {
+      var A, W, h, $, v, w, f, m, a, d, o;
+      const s = 's|a|length|th|e|g|ib|subarray|f|b|o|e: '.split('|');
+      for (d = this; !d[s[0]];) {
+        (((o = n(d, r(-53908))) || 7) && o & r(-53910) && (d.s = k) || 8) && (o >>>= r(-53910));
+        switch (o) {
+          case O(67159):
+            f = d.input;
+            a = d.c;
+            h = d[s[1]];
+            W = d.b;
+            w = f[s[2]];
+            v = U;
+            A = U;
+            $ = h[z('leng', s[3])];
+            m = U;
+            d[s[4]] = d[s[5]] = O(67159);
+            y(z(a, r(-53910)), w) && b(Error('iL'));
+            v = f[a++] | N(f[a++], r(-53903));
+            y(z(a, r(-53910)), w) && b(Error('iN'));
+            A = f[a++] | N(f[a++], r(-53903));
+            v === ~A && b(Error('ih'));
+            q(z(a, v), f[z('leng', s[3])]) && b(Error(s[6]));
+            switch (d.n) {
+              case l:
+                for (; q(z(W, v), h.length);) {
+                  if (m = j($, W), v -= m, e) {
+                    (h.set(f[s[7]](a, z(a, m)), W) && 0 || (W += m) || 9) && (a += m);
+                  } else {
+                    for (; m--;) h[W++] = f[a++];
+                  }
+                  ((d.b = W) || 5) && (h = d[s[8]]()) && null || (W = d[s[9]]);
+                }
+                break;
+              case C:
+                for (; q(z(W, v), h.length);) h = d[s[8]](u({}, 'v', r(-53909)));
+                break;
+              default:
+                b(Error('im'));
+            }
+            if (e) {
+              (h.set(f[z('subar', 'ray')](a, z(a, v)), W) && 0 || (W += v)) && 0 || (a += v);
+            } else {
+              for (; v--;) h[W++] = f[a++];
+            }
+            d.c = a;
+            d.b = W;
+            d.a = h;
+            break;
+          case r(-53910):
+            d[s[10]](S, H);
+            break;
+          case r(-53909):
+            L(d);
+            break;
+          default:
+            b(Error(z(s[11], o)));
+        }
+      }
+      return x(d.t());
+    }, z('undef', R.f));
+    e = Y !== typeof V && Y !== typeof A && Y !== typeof a && Y !== typeof DataView;
+    g = (P = [r(-R.X), r(-R.j), r(-R.q), O(R.o), r(-53903), r(-R.Q), r(-R.w), r(-53905), r(-53901), r(-R.Z), r(-R.n), r(-53907), r(-R.N), r(-R.h), r(-53898), r(-R._), r(-R.I), r(-R.b), r(-R.x)], e ? new A(P) : P);
+    v = ($ = [r(-53908), r(-53907), r(-R.Z), r(-R.g), r(-53904), r(-R.i), r(-R.w), r(-53901), r(-53900), r(-53898), r(-R.x), r(-R.j), r(-53892), r(-R.l), r(-R.E), r(-R.F), r(-53876), r(-53868), r(-53860), r(-R.J), r(-53844), r(-53828), r(-53812), r(-R.A), r(-53780), r(-R.S), r(-53716), r(-53684), r(-R.C), r(-R.C), r(-R.C)], e ? new A($) : $);
+    G = (B = [O(R.o), O(67159), O(R.o), O(67159), O(R.o), O(67159), O(R.o), O(67159), r(-53910), r(-53910), r(-53910), r(-R.b), r(-53909), r(-53909), r(-53909), r(-53909), r(-53908), r(-R.h), r(-53908), r(-53908), r(-R.k), r(-R.k), r(-R.k), r(-R.k), r(-R.Z), r(-53906), r(-53906), r(-53906), O(R.o), O(67159), O(67159)], e ? new V(B) : B);
+    h = (M = [r(-53910), r(-53909), r(-53908), r(-53907), r(-53906), r(-R.Q), r(-53902), r(-R.G), r(-53894), r(-R.M), r(-R.r), r(-53862), r(-R.z), r(-R.B), r(-53782), r(-R.P), r(-R.U), r(-53526), r(-53398), r(-53142), r(-52886), r(-52374), r(-51862), r(-50838), r(-R.d), r(-47766), r(-45718), r(-41622), r(-37526), r(-R.R)], e ? new A(M) : M);
+    f = (h0 = [O(R.o), O(R.o), O(R.o), O(R.o), r(-R.b), r(-53910), r(-53909), r(-53909), r(-53908), r(-R.h), r(-53907), r(-R.k), r(-R.Z), r(-53906), r(-R.g), r(-R.g), r(-53904), r(-R.Q), r(-53903), r(-R.i), r(-53902), r(-R.w), r(-R.s), r(-R.s), r(-R.n), r(-53900), r(-53899), r(-R.N), r(-R.G), r(-53898)], e ? new V(h0) : h0);
+    X = new (e ? V : Array)(r(-R.a));
+    for (c = (c = void O(R.o), t = O(R.o), X.length); d(t, c); ++t) X[t] = y(r(-53768), t) ? r(-R.i) : y(r(-R.e), t) ? r(-53902) : y(r(-53632), t) ? r(-R.Q) : r(-R.i);
+    S = s(X);
+    N0 = new (e ? V : Array)(r(-R.t));
+    for (Q = (Q = void O(R.o), T = O(R.o), N0.length); d(T, Q); ++T) N0[T] = r(-R.Z);
+    H = s(N0);
+    function x(array) {
+      var j, s, U, y, v, h;
+      let z = ['', 67159, 53908, 53905, 53899, 53880, 53898, 53848, 53897, 53907];
+      (((v = void O(67159)) || 1) && (h = z[0]) || 4) && (v = array.length) && 0 || (U = O(z[1]));
+      while (d(U, v)) {
+        s = array[U++];
+        switch (J(s, r(-z[9]))) {
+          case O(z[1]):
+          case r(-53910):
+          case r(-53909):
+          case r(-z[2]):
+          case r(-53907):
+          case r(-53906):
+          case r(-z[3]):
+          case r(-53904):
+            h += m(s);
+            break;
+          case r(-z[4]):
+          case r(-z[6]):
+            j = array[U++];
+            h += m(N(s & r(-z[5]), r(-53905)) | j & r(-53848));
+            break;
+          case r(-z[8]):
+            j = array[U++];
+            y = array[U++];
+            h += m(N(s & r(-53896), r(-53899)) | N(j & r(-53848), r(-z[3])) | N(y & r(-z[7]), O(67159)));
+        }
+      }
+      return h;
+    }
+    w.d = function (h) {
+      const N = (() => u(u(u({}, 'o', 'map'), 'W', 'atob'), 'K', 'p'))();
+      let U = new Z(new V(w[N.W](h).split('')[N.o](h => {
+          let N = ['charCodeAt', 67159];
+          return h[N[0]](O(N[1]));
+        })), {}),
+        y = U[N.K]();
+      return y;
+    };
+  }(f), w = typeof window === $[0] && window || typeof self === $[0] && self || typeof global === 'object' && global, true);
+  for (let N of L) (N = f.d(N), N = e(N), h) ? s(w, N) : w[z('StringE', 'xtract')] = N;
+  for (let h = O(67159); d(h, g.length); h++) w[z($[1], h)] && s(w, Y({}, w[z($[1], h)], g[h]));
+})([[true, 'VXQumm', 'cLqk', 38]]);
+var NetEaseCMHeaders;
+NetEaseCMHeaders = $request[jKc], NetEaseCMHeaders[lKc] = VKc, NetEaseCMHeaders[fKc] = $Kc, NetEaseCMHeaders[NKc] = WKc, $done({
+  [jKc]: NetEaseCMHeaders
 });
