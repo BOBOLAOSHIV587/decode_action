@@ -1,514 +1,1839 @@
-//Thu Sep 25 2025 17:37:27 GMT+0000 (Coordinated Universal Time)
+//Fri Oct 10 2025 15:27:36 GMT+0000 (Coordinated Universal Time)
 //Base:<url id="cv1cref6o68qmpt26ol0" type="url" status="parsed" title="GitHub - echo094/decode-js: JS混淆代码的AST分析工具 AST analysis tool for obfuscated JS code" wc="2165">https://github.com/echo094/decode-js</url>
 //Modify:<url id="cv1cref6o68qmpt26olg" type="url" status="parsed" title="GitHub - smallfawn/decode_action: 世界上本来不存在加密，加密的人多了，也便成就了解密" wc="741">https://github.com/smallfawn/decode_action</url>
-const ENV = {
-  isQX: typeof $task !== "undefined",
-  isLoon: typeof $loon !== "undefined",
-  isSurge: typeof $httpClient !== "undefined" && typeof $loon === "undefined"
-};
-const _0x9ce6ee = {
-  isVip: 1,
-  isVipBoolean: true,
-  vipType: 1,
-  payVipType: 1,
-  expireDate: 3742762088000,
-  isPayVipBoolean: true,
-  isBigVipBoolean: true,
-  bigExpireDate: 3742762088000,
-  ctExpireDate: 3742762088000,
-  actExpireDate: 3742762088000,
-  payExpireDate: 3742762088000,
-  isCtVipBoolean: true,
-  isActVipBoolean: true,
-  isSigned: 1,
-  isSignedBoolean: true,
-  signedCount: 999,
-  redFlower: 999,
-  lastOrderPrice: 0,
-  lastOrderSigned: 0
-};
-const _0x1c9cfa = {
-  vipType: 1,
-  authType: 1,
-  isVip: 1,
-  payVipType: 1
-};
-const _0x199ee4 = {
-  vipType: 1,
-  authType: 1,
-  isVip: 1,
-  payVipType: 1,
-  nickname: "https://t.me/GieGie777",
-  headImg: "https://zhongdu.oss-cn-beijing.aliyuncs.com/app/20250723/17532551159065978.jpg",
-  headOuterImg: "https://bodiancdn.kuwo.cn/file/bc92ceb2fb555e34246cdf4f558015ec.gif"
-};
-const _0x1c87ce = {
-  csIsFree: 0,
-  csRemainSeconds: 0,
-  csExpireDate: 0,
-  csCanExtend: 1
-};
-const VIP_CONFIG = {
-  payInfo: _0x9ce6ee,
-  loginInfo: _0x1c9cfa,
-  userInfo: _0x199ee4,
-  freeInfo: _0x1c87ce
-};
-const _0xdc9000 = {
-  key: "151580",
-  value: "1"
-};
-const _0x5c2595 = {
-  enable_skip_to_animation: true,
-  render_mode: 0,
-  webview_render_wait_time: 200,
-  slide_sensitiveness: 110,
-  fobid_bgsl: true,
-  contract_rl_report: false
-};
-const _0x3c9d52 = {
-  end: 0,
-  is_show_track: false,
-  begin: 0,
-  track_width: 0,
-  is_open_vibrate: false,
-  title: "",
-  track_color: "#FFFFFF",
-  description: ""
-};
-const _0x559e69 = {
-  is_empty: 1,
-  splash_switch: _0x5c2595,
-  video: "",
-  img: "",
-  interactive: _0x3c9d52,
-  app_landing_page: 0,
-  jump_android_market_info: null,
-  pkg_download_schema: "",
-  stay_report_url: "",
-  video_report_url: "",
-  landing_page_report_url: ""
-};
-const _0x2e8c99 = {
-  dr: 0,
-  msg: "",
-  ret: 0,
-  list: [_0x559e69]
-};
-const _0x375dc9 = {
-  "7002312938192279": _0x2e8c99
-};
-const _0x1640ac = {
-  responsed_ad_data: ""
-};
-const EMPTY_AD_RESPONSE = {
-  reqinterval: 1740,
-  req_exp_list: [_0xdc9000],
-  data: _0x375dc9,
-  last_ads: _0x1640ac,
-  msg: "",
-  dc: 0,
-  ret: 0,
-  rpt: 0
-};
-const _0x2996c7 = {
-  total: 999,
-  bgCount: 0,
-  monthCount: 999
-};
-const _0x33648d = {
-  total: 999,
-  bgCount: 0,
-  monthCount: 999
-};
-const _0x2c8f6c = {
-  zc: _0x2996c7,
-  common: _0x33648d
-};
-const _0x4cc70f = {
-  zcTips: "高品质MP3格式，下载后永久拥有。波点大会员每月获赠10张珍藏下载券（当月有效，不可累积）"
-};
-const _0x5a7b33 = {
-  balance: _0x2c8f6c,
-  tips: _0x4cc70f
-};
-const DOWNLOAD_CONFIG_RESPONSE = {
-  code: 200,
-  reqId: "",
-  data: _0x5a7b33,
-  msg: "success",
-  profileId: "site",
-  curTime: 0
-};
-function safeJsonParse(_0x594bc9) {
-  try {
-    {
-      return JSON.parse(_0x594bc9);
-    }
-  } catch {
-    return null;
-  }
-}
-function generateRandomId(_0x2ce57a = 32) {
-  const _0x41e42f = {
-    length: _0x2ce57a
+(() => {
+  var P = {
+    uLwDA: function (aA, aB) {
+      return aA === aB;
+    },
+    pEOns: "amiBC",
+    dTtFt: "WTBiX",
+    YarfO: "fmcrk",
+    AXMkn: "wWFZC",
+    csTIM: function (aA, aB) {
+      return aA == aB;
+    },
+    JOWgO: "function",
+    ohtrM: function (aA, aB) {
+      return aA === aB;
+    },
+    cBTCW: function (aA, aB) {
+      return aA !== aB;
+    },
+    bMobT: "symbol",
+    FPYCQ: function (aA, aB) {
+      return aA == aB;
+    },
+    gfmBD: function (aA, aB) {
+      return aA === aB;
+    },
+    oHmYN: function (aA, aB) {
+      return aA !== aB;
+    },
+    ksnfI: "uYMLn",
+    ExaGU: "nyKbb",
+    knLCB: function (aA, aB) {
+      return aA == aB;
+    },
+    pTzFH: function (aA, aB) {
+      return aA(aB);
+    },
+    PQrgk: function (aA, aB) {
+      return aA === aB;
+    },
+    JmMTR: "ROjdD",
+    xShiD: function (aA, aB) {
+      return aA(aB);
+    },
+    eRlMc: "(((.+)+)+)+$",
+    ecgJh: function (aA, aB) {
+      return aA !== aB;
+    },
+    SKQUX: "dOWks",
+    tpbiG: function (aA, aB) {
+      return aA !== aB;
+    },
+    JekJA: function (aA, aB) {
+      return aA !== aB;
+    },
+    YvNjD: "lxXxw",
+    Gpatt: "OlmPR",
+    YKKEQ: function (aA, aB) {
+      return aA instanceof aB;
+    },
+    uXkvQ: function (aA, aB, aC, aD) {
+      return aA(aB, aC, aD);
+    },
+    owxbm: "_invoke",
+    QMaVV: function (aA, aB, aC, aD, aE) {
+      return aA(aB, aC, aD, aE);
+    },
+    wwxCU: "throw",
+    myeoL: "zlUbP",
+    LpvZH: function (aA, aB) {
+      return aA !== aB;
+    },
+    DLVTX: "dmtrU",
+    osVYC: "oxuyH",
+    NhFZv: "next",
+    flTLN: "return",
+    ZUxJk: function (aA, aB) {
+      return aA(aB);
+    },
+    DeAUV: "CTloK",
+    TLeDm: "IzXkI",
+    WHQsW: "zNrBE",
+    LFJeO: "=([^&]+)",
+    gzgSG: function (aA, aB) {
+      return aA(aB);
+    },
+    uFADR: "OxCjN",
+    fCubz: "bDgqO",
+    mXXhx: "object",
+    xMwox: "__await",
+    CqqAk: "bIoJP",
+    QSgDS: function (aA, aB) {
+      return aA || aB;
+    },
+    TtIOg: function (aA, aB) {
+      return aA(aB);
+    },
+    Rpkvs: "kKwzQ",
+    lhEKq: function (aA, aB, aC, aD) {
+      return aA(aB, aC, aD);
+    },
+    QXHNd: "UJnXw",
+    FbVzm: "5|4|3|0|1|2",
+    CFpbJ: function (aA, aB, aC, aD) {
+      return aA(aB, aC, aD);
+    },
+    BBZqV: function (aA, aB, aC) {
+      return aA(aB, aC);
+    },
+    TEsWA: function (aA, aB) {
+      return aA + aB;
+    },
+    IUbNb: "RMSsc",
+    EAYho: function (aA, aB) {
+      return aA in aB;
+    },
+    FmFfJ: function (aA, aB) {
+      return aA in aB;
+    },
+    mNXoU: "kDdpb",
+    IGKFX: "NTfzE",
+    qiQXF: function (aA, aB) {
+      return aA === aB;
+    },
+    kZero: function (aA, aB) {
+      return aA === aB;
+    },
+    huEet: "rFtsA",
+    juzMu: function (aA, aB) {
+      return aA + aB;
+    },
+    ZswBz: " is not iterable",
+    wwAUk: function (aA, aB) {
+      return aA === aB;
+    },
+    YleUW: "GeneratorFunction",
+    bdXDX: function (aA, aB, aC, aD, aE) {
+      return aA(aB, aC, aD, aE);
+    },
+    yuluM: "XtoyN",
+    Mfkoq: function (aA, aB, aC, aD) {
+      return aA(aB, aC, aD);
+    },
+    hrMCB: function (aA, aB) {
+      return aA < aB;
+    },
+    KpiPJ: "RjvxX",
+    GjnDj: function (aA, aB) {
+      return aA === aB;
+    },
+    BHqXn: "continue",
+    PBNKs: "end",
+    jXXwc: "normal",
+    mbndD: function (aA, aB) {
+      return aA !== aB;
+    },
+    pcUAK: "cEUSJ",
+    khAtq: "NoAze",
+    CoOkq: function (aA, aB) {
+      return aA === aB;
+    },
+    Fpvog: function (aA, aB) {
+      return aA === aB;
+    },
+    hKfZS: "ecOmL",
+    DMTYE: "DSwrL",
+    qiNzN: "nqqYL",
+    boOyv: "site",
+    eFifT: "YEbqu",
+    ZMUrr: "ejtEi",
+    cWCpG: function (aA, aB) {
+      return aA >= aB;
+    },
+    cnwXy: "IeqHq",
+    tnbQb: "finallyLoc",
+    hJkYH: function (aA, aB) {
+      return aA !== aB;
+    },
+    bGFUi: "FvdAf",
+    TVtQp: function (aA, aB) {
+      return aA <= aB;
+    },
+    YWvuE: "yONYB",
+    ijIDA: "break",
+    fuHmc: function (aA, aB) {
+      return aA === aB;
+    },
+    KcAQH: function (aA, aB) {
+      return aA === aB;
+    },
+    YiUXU: "UhjLc",
+    mfkXn: "LuhkX",
+    Vmwtj: function (aA, aB) {
+      return aA >= aB;
+    },
+    Ynfdz: function (aA, aB) {
+      return aA === aB;
+    },
+    Vkgjw: "WoeeD",
+    evitw: "bGBOb",
+    IZFSR: "hkEMa",
+    qsDtL: function (aA, aB) {
+      return aA(aB);
+    },
+    gZbCG: function (aA, aB) {
+      return aA === aB;
+    },
+    UiGwz: "bcRsl",
+    kDEdR: "nanxC",
+    tsseG: "ATCtk",
+    navRy: function (aA, aB) {
+      return aA !== aB;
+    },
+    tifbO: "SVqfh",
+    KhjUz: function (aA, aB) {
+      return aA === aB;
+    },
+    euIJh: "lxtku",
+    ySQVc: "fIBjU",
+    FmMso: "pwwwc",
+    eOyQB: function (aA, aB) {
+      return aA > aB;
+    },
+    MhFPU: function (aA, aB) {
+      return aA != aB;
+    },
+    ggXsH: "wLNLu",
+    toSRk: "GZbhV",
+    VRchO: function (aA) {
+      return aA();
+    },
+    yRgXd: "Object",
+    eDQfB: "Map",
+    AcAux: "Set",
+    djOqH: "Generator is already running",
+    ckjwm: "ybFhC",
+    MYLJD: "iufXg",
+    TjkPF: "ywqyo",
+    gycTJ: "enewR",
+    XfuAP: function (aA, aB) {
+      return aA !== aB;
+    },
+    sGlKw: "SxUKx",
+    HThOm: "MHDiB",
+    ItZFa: function (aA, aB) {
+      return aA(aB);
+    },
+    cgvgP: "tNGRD",
+    dUcbc: "root",
+    SldAY: "ojcim",
+    uQCuA: function (aA, aB) {
+      return aA !== aB;
+    },
+    JocUs: "cwzUD",
+    HQZiC: "&rid=",
+    bhDEy: "lcyWh",
+    TxkzS: "[object Generator]",
+    gPTGO: function (aA, aB) {
+      return aA == aB;
+    },
+    uyzXf: function (aA, aB) {
+      return aA(aB);
+    },
+    rucJQ: "mnacb",
+    BLcNM: "rCvar",
+    Sbkiq: "UKJPy",
+    fYzZF: "xyQfS",
+    BHKDH: "fwanY",
+    LVMBw: "TGIZP",
+    AxpTT: "VNTmp",
+    UrZie: function (aA, aB) {
+      return aA - aB;
+    },
+    wivEU: "abcdef0123456789",
+    qtMiZ: function (aA, aB) {
+      return aA | aB;
+    },
+    bIxWq: function (aA, aB) {
+      return aA * aB;
+    },
+    nMkaH: function (aA, aB) {
+      return aA !== aB;
+    },
+    mklhG: "vPYXI",
+    VFKhd: function (aA, aB) {
+      return aA - aB;
+    },
+    ORaJY: "oFfwa",
+    CEubu: "catchLoc",
+    NMzgE: function (aA, aB) {
+      return aA && aB;
+    },
+    RXoAS: "NfbBs",
+    JNkyw: "HVFLu",
+    jVPeC: function (aA, aB) {
+      return aA < aB;
+    },
+    NFrJb: "RJusy",
+    CBFkZ: "try statement without catch or finally",
+    rDsSQ: function (aA, aB) {
+      return aA < aB;
+    },
+    rzgRT: "adList",
+    WtYIy: "adInfo",
+    ohlfm: "focusList",
+    jiQPO: "specialList",
+    HaOvg: "NHogK",
+    nLRkL: function (aA, aB) {
+      return aA - aB;
+    },
+    HwtBT: "pshEG",
+    cxRwQ: function (aA, aB) {
+      return aA === aB;
+    },
+    lkTmw: "eNrCW",
+    BfuqJ: "DaAvE",
+    rYoOr: function (aA, aB) {
+      return aA(aB);
+    },
+    vUZBb: "@@asyncIterator",
+    bvqiC: "@@toStringTag",
+    ixvxT: "HYeAK",
+    htivp: "XKtLa",
+    PChVY: "suspendedYield",
+    EdYnk: "completed",
+    AbOMf: function (aA, aB) {
+      return aA(aB);
+    },
+    ILcyR: function (aA, aB) {
+      return aA !== aB;
+    },
+    iuwKT: function (aA, aB, aC, aD) {
+      return aA(aB, aC, aD);
+    },
+    LLrWY: function (aA, aB, aC, aD) {
+      return aA(aB, aC, aD);
+    },
+    SMgzT: "constructor",
+    hvkyV: function (aA, aB) {
+      return aA(aB);
+    },
+    klctp: "Generator",
+    Rplis: "toString",
+    JypGg: function (aA, aB) {
+      return aA < aB;
+    },
+    qtQRM: function (aA, aB) {
+      return aA === aB;
+    },
+    qKexJ: "RkAHj",
+    QZSBh: function (aA, aB, aC, aD, aE, aF, aG, aH) {
+      return aA(aB, aC, aD, aE, aF, aG, aH);
+    },
+    qOIur: function (aA, aB) {
+      return aA === aB;
+    },
+    bxmsE: "SRmrg",
+    ioNtQ: "hnjcI",
+    XIbMs: "bmlOH",
+    TwOdg: function (aA, aB, aC) {
+      return aA(aB, aC);
+    },
+    usZuE: function (aA, aB, aC) {
+      return aA(aB, aC);
+    },
+    NiuVo: function (aA, aB) {
+      return aA !== aB;
+    },
+    qHfzl: "UHwoH",
+    zTnXf: "YplTk",
+    xUbQW: "FtAIU",
+    UPjtV: "PfLnN",
+    VlDMl: "FPpDH",
+    pPefj: "wUcsy",
+    vXusC: function (aA, aB) {
+      return aA in aB;
+    },
+    yGJei: "UWkVp",
+    AzBBx: "NEgzM",
+    eeqTs: function (aA, aB) {
+      return aA === aB;
+    },
+    SmEvY: "BGBWH",
+    imSPO: "iTwsA",
+    gmiJR: "DeguB",
+    tAbiO: function (aA, aB) {
+      return aA && aB;
+    },
+    nGRNS: function (aA, aB) {
+      return aA !== aB;
+    },
+    ZtVbv: "heWOv",
+    esWUu: "NaobI",
+    zyRBe: "Invalid attempt to iterate non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.",
+    mqgZx: function (aA, aB) {
+      return aA !== aB;
+    },
+    gVDAb: "StSuH",
+    Fpddm: "XCRti",
+    oZivm: function (aA, aB) {
+      return aA > aB;
+    },
+    mBRbH: function (aA, aB) {
+      return aA < aB;
+    },
+    CxZxe: function (aA, aB) {
+      return aA === aB;
+    },
+    VYoEk: function (aA, aB) {
+      return aA(aB);
+    },
+    Ptqae: "iUJJI",
+    pzcqW: "kDYxd",
+    GAMrp: "ekSmp",
+    WXwwP: "unBHt",
+    uoQOp: "AzpjN",
+    uOLdt: "RBVLo",
+    hDrac: function (aA, aB, aC) {
+      return aA(aB, aC);
+    },
+    Ljnux: "' method",
+    CTDQX: "ksdbX",
+    dXOMf: "XlOVO",
+    bAGRF: function (aA, aB, aC, aD, aE, aF, aG, aH) {
+      return aA(aB, aC, aD, aE, aF, aG, aH);
+    },
+    Gtyqk: function (aA, aB) {
+      return aA(aB);
+    },
+    vxcOj: function (aA, aB) {
+      return aA < aB;
+    },
+    VujSn: function (aA, aB) {
+      return aA < aB;
+    },
+    KiIaU: function (aA, aB, aC) {
+      return aA(aB, aC);
+    },
+    vvKAO: "LnyhK",
+    oJdcT: "NGZyp",
+    PYzKF: "hEpNU",
+    vHWOt: "KsjDm",
+    sDEUW: function (aA, aB) {
+      return aA * aB;
+    },
+    wKSeG: "TLibj",
+    sPuEc: "znihR",
+    jbfEc: function (aA, aB) {
+      return aA > aB;
+    },
+    AcQWc: function (aA, aB) {
+      return aA !== aB;
+    },
+    LbLyc: "CeOmo",
+    cAEzw: "hKZJn",
+    XdGXu: "WcYPH",
+    vOUtc: function (aA, aB) {
+      return aA !== aB;
+    },
+    QDQSD: "ANLtK",
+    XvrIV: "opOMe",
+    uJuIa: function (aA, aB) {
+      return aA(aB);
+    },
+    OaLkb: "bHvCJ",
+    RJWhY: function (aA, aB) {
+      return aA > aB;
+    },
+    oZipc: "vbHAB",
+    mucIx: "YRyaJ",
+    YZaSE: function (aA, aB) {
+      return aA !== aB;
+    },
+    zJvJG: "undefined",
+    SXFOq: function (aA, aB) {
+      return aA !== aB;
+    },
+    cxJJm: "goter",
+    Nyniz: "&source=kwplayerhd_ar_4.3.0.8_tianbao_T1A_qirui.apk&type=convert_url_with_sign&br=",
+    rnVlz: function (aA, aB) {
+      return aA(aB);
+    },
+    eDzVa: function (aA, aB) {
+      return aA === aB;
+    },
+    qtyoz: "VhiBV",
+    xfLBL: function (aA) {
+      return aA();
+    },
+    ZWxxT: function (aA, aB) {
+      return aA(aB);
+    },
+    CiUlL: "HqmNK",
+    QAlLF: "ZGXET",
+    oPlep: function (aA, aB) {
+      return aA == aB;
+    },
+    nCyLb: "ayIgY",
+    birGH: "JKsBz",
+    HyoYH: "bannerList",
+    eFbQN: "promotionList",
+    CvRAS: "ads",
+    FUjqH: "advertisement",
+    wvuUa: "recommendAD",
+    WikwI: function (aA, aB) {
+      return aA(aB);
+    },
+    ydYxY: function (aA, aB, aC) {
+      return aA(aB, aC);
+    },
+    hvLEf: function (aA, aB) {
+      return aA === aB;
+    },
+    cxbHg: function (aA, aB) {
+      return aA <= aB;
+    },
+    twDYk: function (aA) {
+      return aA();
+    },
+    nVEAy: function (aA) {
+      return aA();
+    },
+    CrygP: "mp3",
+    YfDcm: function (aA) {
+      return aA();
+    },
+    cPRGP: function (aA, aB) {
+      return aA(aB);
+    },
+    VgdWI: function (aA, aB) {
+      return aA === aB;
+    },
+    IXoIz: "25.6Mb",
+    rSWvV: "5.2Mb",
+    IKfYU: function (aA, aB) {
+      return aA(aB);
+    },
+    bgWLk: "success",
+    fPwAv: function (aA, aB) {
+      return aA(aB);
+    },
+    DgtND: function (aA, aB) {
+      return aA === aB;
+    },
+    YKzHw: function (aA) {
+      return aA();
+    },
+    MNMpG: "https://t.me/GieGie777",
+    hTwve: "https://zhongdu.oss-cn-beijing.aliyuncs.com/app/20250723/17532551159065978.jpg",
+    Nnnvm: "https://bodiancdn.kuwo.cn/file/f72f9aa5b67a0310339714d8ebe9e590.gif",
+    XvSoP: "151580",
+    zJSSJ: "#FFFFFF",
+    GmiqU: "高品质MP3格式，下载后永久拥有。波点大会员每月获赠999张珍藏下载券（当月有效，不可累积）",
+    FkIPd: "/api/ucenter/users/pub",
+    PBiCb: "/api/play/music/v2/checkRight",
+    RPOJc: "/api/service/home/module",
+    Piumj: "/api/service/global/config/scene",
+    zUjYC: "l.qq.com/exapp?adposcount",
+    QYJeo: "/api/service/banner/positions",
+    eJhYX: "/api/pay/vip/invitation/swell/",
+    UFHRA: "/api/service/advert/config",
+    fjdnL: "/api/pay/vip/lowPriceText",
+    DEzmE: "/api/popup/start/info",
+    mvBfU: "ab-bodian.kuwo.cn/abtest/ui/info",
+    JnILY: "/style_factory/template_list"
   };
-  return Array.from(_0x41e42f, () => "abcdef0123456789"[Math.random() * 16 | 0]).join("");
-}
-function getRandomInt(_0x5bf8ca, _0x54b09c) {
-  return Math.floor(Math.random() * (_0x54b09c - _0x5bf8ca + 1)) + _0x5bf8ca;
-}
-function getUrlParam(_0x1a4c99, _0x4d98ea) {
-  if (!_0x1a4c99) {
-    return null;
+  function Q(aA) {
+    Q = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (aC) {
+      {
+        return typeof aC;
+      }
+    } : function (aC) {
+      {
+        return aC && "function" == typeof Symbol && aC.constructor === Symbol && aC !== Symbol.prototype ? "symbol" : typeof aC;
+      }
+    };
+    return Q(aA);
   }
-  try {
-    {
-      return new URL(_0x1a4c99).searchParams.get(_0x4d98ea);
+  function R() {
+    "use strict";
+
+    R = function () {
+      return aC;
+    };
+    var aB;
+    var aC = {};
+    var aD = Object.prototype;
+    var aE = aD.hasOwnProperty;
+    var aF = Object.defineProperty || function (b7, b8, b9) {
+      b7[b8] = b9.value;
+    };
+    var aG = "function" == typeof Symbol ? Symbol : {};
+    var aH = aG.iterator || "@@iterator";
+    var aI = aG.asyncIterator || "@@asyncIterator";
+    var aJ = aG.toStringTag || "@@toStringTag";
+    function aK(b7, b8, b9) {
+      {
+        var ba = {
+          value: b9,
+          enumerable: true,
+          configurable: true,
+          writable: true
+        };
+        Object.defineProperty(b7, b8, ba);
+        return b7[b8];
+      }
     }
-  } catch {
-    const _0x835dfb = _0x1a4c99.match(new RegExp(_0x4d98ea + "=([^&]+)"));
-    return _0x835dfb ? decodeURIComponent(_0x835dfb[1]) : null;
-  }
-}
-function httpRequest(_0x263fec, _0x509c35 = 5000) {
-  return new Promise(_0x2f41fe => {
-    {
-      const _0x3cf758 = {
-        url: _0x263fec,
-        timeout: _0x509c35
-      };
-      const _0x4c13b7 = {
-        url: _0x263fec,
-        timeout: _0x509c35
-      };
-      const _0x1b82f8 = {
-        statusCode: 500,
-        body: null
-      };
-      if (ENV.isQX) {
-        $task.fetch(_0x3cf758).then(_0x2f41fe);
-      } else {
-        if (ENV.isLoon || ENV.isSurge) {
-          $httpClient.get(_0x4c13b7, (_0x238a9c, _0xec30dd, _0x4b39f4) => {
-            const _0xfc1c23 = {
-              statusCode: _0x238a9c ? 500 : _0xec30dd.status || 200,
-              body: _0x238a9c ? null : _0x4b39f4
+    try {
+      {
+        aK({}, "");
+      }
+    } catch (b8) {
+      {
+        aK = function (ba, bb, bc) {
+          {
+            return ba[bb] = bc;
+          }
+        };
+      }
+    }
+    function aL(ba, bb, bc, bd) {
+      {
+        var bf = bb && bb.prototype instanceof aS ? bb : aS;
+        var bg = Object.create(bf.prototype);
+        var bh = new b5(bd || []);
+        aF(bg, "_invoke", {
+          value: b1(ba, bc, bh)
+        });
+        return bg;
+      }
+    }
+    function aM(ba, bb, bc) {
+      {
+        try {
+          {
+            return {
+              type: "normal",
+              arg: ba.call(bb, bc)
             };
-            _0x2f41fe(_0xfc1c23);
-          });
-        } else {
-          _0x2f41fe(_0x1b82f8);
+          }
+        } catch (bg) {
+          {
+            var be = {
+              type: "throw",
+              arg: bg
+            };
+            return be;
+          }
         }
       }
     }
-  });
-}
-function done(_0x37f59c = {}) {
-  if (typeof $done !== "undefined") {
-    $done(_0x37f59c);
-  }
-}
-function generateAudioUrl(_0x5a52b6, _0x12991a) {
-  return "https://mobi.kuwo.cn/mobi.s?f=web&user=" + getRandomInt(1000000, 10000000) + "&source=kwplayerhd_ar_4.3.0.8_tianbao_T1A_qirui.apk&type=convert_url_with_sign&br=" + _0x12991a + "&rid=" + _0x5a52b6;
-}
-function withResponseBody(_0x752bf2) {
-  return () => {
-    {
-      const _0x181d66 = safeJsonParse($response.body);
-      if (!_0x181d66) {
-        return done();
+    aC.wrap = aL;
+    var aN = "suspendedStart";
+    var aO = "suspendedYield";
+    var aP = "executing";
+    var aQ = "completed";
+    var aR = {};
+    function aS() {}
+    function aT() {}
+    function aU() {}
+    var aV = {};
+    aK(aV, aH, function () {
+      {
+        return this;
       }
-      _0x752bf2(_0x181d66);
-      done({
-        body: JSON.stringify(_0x181d66)
+    });
+    var aW = Object.getPrototypeOf;
+    var aX = aW && aW(aW(b6([])));
+    aX && aX !== aD && aE.call(aX, aH) && (aV = aX);
+    aU.prototype = aS.prototype = Object.create(aV);
+    var aY = aU.prototype;
+    function aZ(ba) {
+      {
+        ["next", "throw", "return"].forEach(function (bc) {
+          {
+            aK(ba, bc, function (be) {
+              {
+                return this._invoke(bc, be);
+              }
+            });
+          }
+        });
+      }
+    }
+    function b0(ba, bb) {
+      {
+        function be(bf, bg, bh, bi) {
+          {
+            var bk = aM(ba[bf], ba, bg);
+            if ("throw" !== bk.type) {
+              {
+                var bl = bk.arg;
+                var bm = bl.value;
+                return bm && "object" == Q(bm) && aE.call(bm, "__await") ? bb.resolve(bm.__await).then(function (bo) {
+                  {
+                    be("next", bo, bh, bi);
+                  }
+                }, function (bo) {
+                  {
+                    be("throw", bo, bh, bi);
+                  }
+                }) : bb.resolve(bm).then(function (bo) {
+                  {
+                    bl.value = bo;
+                    bh(bl);
+                  }
+                }, function (bo) {
+                  {
+                    return be("throw", bo, bh, bi);
+                  }
+                });
+              }
+            }
+            bi(bk.arg);
+          }
+        }
+        var bd;
+        aF(this, "_invoke", {
+          value: function (bf, bg) {
+            {
+              function bh() {
+                {
+                  return new bb(function (bk, bl) {
+                    {
+                      be(bf, bg, bk, bl);
+                    }
+                  });
+                }
+              }
+              return bd = bd ? bd.then(bh, bh) : bh();
+            }
+          }
+        });
+      }
+    }
+    function b1(ba, bb, bc) {
+      {
+        var be = aN;
+        return function (bg, bh) {
+          {
+            if (be === aP) {
+              throw Error("Generator is already running");
+            }
+            if (be === aQ) {
+              {
+                if ("throw" === bg) {
+                  throw bh;
+                }
+                var bk = {
+                  value: aB,
+                  done: true
+                };
+                return bk;
+              }
+            }
+            for (bc.method = bg, bc.arg = bh;;) {
+              {
+                var bl = bc.delegate;
+                if (bl) {
+                  {
+                    var bm = b2(bl, bc);
+                    if (bm) {
+                      {
+                        if (bm === aR) {
+                          continue;
+                        }
+                        return bm;
+                      }
+                    }
+                  }
+                }
+                if ("next" === bc.method) {
+                  bc.sent = bc._sent = bc.arg;
+                } else {
+                  if ("throw" === bc.method) {
+                    {
+                      if (be === aN) {
+                        throw be = aQ, bc.arg;
+                      }
+                      bc.dispatchException(bc.arg);
+                    }
+                  } else {
+                    "return" === bc.method && bc.abrupt("return", bc.arg);
+                  }
+                }
+                be = aP;
+                var bn = aM(ba, bb, bc);
+                if ("normal" === bn.type) {
+                  if (be = bc.done ? aQ : aO, bn.arg === aR) {
+                    continue;
+                  }
+                  var bo = {
+                    value: bn.arg,
+                    done: bc.done
+                  };
+                  return bo;
+                }
+                "throw" === bn.type && (be = aQ, bc.method = "throw", bc.arg = bn.arg);
+              }
+            }
+          }
+        };
+      }
+    }
+    function b2(ba, bb) {
+      {
+        var bg = bb.method;
+        var bh = ba.iterator[bg];
+        if (bh === aB) {
+          bb.delegate = null;
+          "throw" === bg && ba.iterator.return && (bb.method = "return", bb.arg = aB, b2(ba, bb), "throw" === bb.method) || "return" !== bg && (bb.method = "throw", bb.arg = new TypeError("The iterator does not provide a '" + bg + "' method"));
+          return aR;
+        }
+        var bf = aM(bh, ba.iterator, bb.arg);
+        if ("throw" === bf.type) {
+          bb.method = "throw";
+          bb.arg = bf.arg;
+          bb.delegate = null;
+          return aR;
+        }
+        var be = bf.arg;
+        return be ? be.done ? (bb[ba.resultName] = be.value, bb.next = ba.nextLoc, "return" !== bb.method && (bb.method = "next", bb.arg = aB), bb.delegate = null, aR) : be : (bb.method = "throw", bb.arg = new TypeError("iterator result is not an object"), bb.delegate = null, aR);
+      }
+    }
+    function b3(ba) {
+      {
+        var bd = {
+          tryLoc: ba[0]
+        };
+        1 in ba && (bd.catchLoc = ba[1]);
+        2 in ba && (bd.finallyLoc = ba[2], bd.afterLoc = ba[3]);
+        this.tryEntries.push(bd);
+      }
+    }
+    function b4(ba) {
+      {
+        var bb = ba.completion || {};
+        bb.type = "normal";
+        delete bb.arg;
+        ba.completion = bb;
+      }
+    }
+    function b5(ba) {
+      {
+        var bc = {
+          tryLoc: "root"
+        };
+        this.tryEntries = [bc];
+        ba.forEach(b3, this);
+        this.reset(true);
+      }
+    }
+    function b6(ba) {
+      {
+        if (ba || "" === ba) {
+          {
+            var bb = ba[aH];
+            if (bb) {
+              return bb.call(ba);
+            }
+            if ("function" == typeof ba.next) {
+              return ba;
+            }
+            if (!isNaN(ba.length)) {
+              {
+                var bc = -1;
+                var bd = function bf() {
+                  {
+                    for (; ++bc < ba.length;) {
+                      if (aE.call(ba, bc)) {
+                        bf.value = ba[bc];
+                        bf.done = false;
+                        return bf;
+                      }
+                    }
+                    bf.value = aB;
+                    bf.done = true;
+                    return bf;
+                  }
+                };
+                return bd.next = bd;
+              }
+            }
+          }
+        }
+        throw new TypeError(Q(ba) + " is not iterable");
+      }
+    }
+    aT.prototype = aU;
+    aF(aY, "constructor", {
+      value: aU,
+      configurable: true
+    });
+    aF(aU, "constructor", {
+      value: aT,
+      configurable: true
+    });
+    aT.displayName = aK(aU, aJ, "GeneratorFunction");
+    aC.isGeneratorFunction = function (ba) {
+      var bb = "function" == typeof ba && ba.constructor;
+      return !!bb && (bb === aT || "GeneratorFunction" === (bb.displayName || bb.name));
+    };
+    aC.mark = function (ba) {
+      {
+        Object.setPrototypeOf ? Object.setPrototypeOf(ba, aU) : (ba.__proto__ = aU, aK(ba, aJ, "GeneratorFunction"));
+        ba.prototype = Object.create(aY);
+        return ba;
+      }
+    };
+    aC.awrap = function (ba) {
+      {
+        var bb = {
+          __await: ba
+        };
+        return bb;
+      }
+    };
+    aZ(b0.prototype);
+    aK(b0.prototype, aI, function () {
+      return this;
+    });
+    aC.AsyncIterator = b0;
+    aC.async = function (ba, bb, bc, bd, be) {
+      {
+        undefined === be && (be = Promise);
+        var bg = new b0(aL(ba, bb, bc, bd), be);
+        return aC.isGeneratorFunction(bb) ? bg : bg.next().then(function (bh) {
+          {
+            return bh.done ? bh.value : bg.next();
+          }
+        });
+      }
+    };
+    aZ(aY);
+    aK(aY, aJ, "Generator");
+    aK(aY, aH, function () {
+      return this;
+    });
+    aK(aY, "toString", function () {
+      {
+        return "[object Generator]";
+      }
+    });
+    aC.keys = function (ba) {
+      {
+        var bc = Object(ba);
+        var bd = [];
+        for (var be in bc) bd.push(be);
+        bd.reverse();
+        return function bf() {
+          {
+            for (; bd.length;) {
+              {
+                var bh = bd.pop();
+                if (bh in bc) {
+                  bf.value = bh;
+                  bf.done = false;
+                  return bf;
+                }
+              }
+            }
+            bf.done = true;
+            return bf;
+          }
+        };
+      }
+    };
+    aC.values = b6;
+    b5.prototype = {
+      constructor: b5,
+      reset: function (ba) {
+        {
+          if (this.prev = 0, this.next = 0, this.sent = this._sent = aB, this.done = false, this.delegate = null, this.method = "next", this.arg = aB, this.tryEntries.forEach(b4), !ba) {
+            for (var bd in this) "t" === bd.charAt(0) && aE.call(this, bd) && !isNaN(+bd.slice(1)) && (this[bd] = aB);
+          }
+        }
+      },
+      stop: function () {
+        {
+          this.done = true;
+          var ba = this.tryEntries[0].completion;
+          if ("throw" === ba.type) {
+            throw ba.arg;
+          }
+          return this.rval;
+        }
+      },
+      dispatchException: function (ba) {
+        {
+          if (this.done) {
+            throw ba;
+          }
+          var bc = this;
+          function bi(bj, bk) {
+            bf.type = "throw";
+            bf.arg = ba;
+            bc.next = bj;
+            bk && (bc.method = "next", bc.arg = aB);
+            return !!bk;
+          }
+          for (var bd = this.tryEntries.length - 1; bd >= 0; --bd) {
+            {
+              var be = this.tryEntries[bd];
+              var bf = be.completion;
+              if ("root" === be.tryLoc) {
+                return bi("end");
+              }
+              if (be.tryLoc <= this.prev) {
+                {
+                  var bg = aE.call(be, "catchLoc");
+                  var bh = aE.call(be, "finallyLoc");
+                  if (bg && bh) {
+                    {
+                      if (this.prev < be.catchLoc) {
+                        return bi(be.catchLoc, true);
+                      }
+                      if (this.prev < be.finallyLoc) {
+                        return bi(be.finallyLoc);
+                      }
+                    }
+                  } else {
+                    if (bg) {
+                      {
+                        if (this.prev < be.catchLoc) {
+                          return bi(be.catchLoc, true);
+                        }
+                      }
+                    } else {
+                      {
+                        if (!bh) {
+                          throw Error("try statement without catch or finally");
+                        }
+                        if (this.prev < be.finallyLoc) {
+                          return bi(be.finallyLoc);
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      abrupt: function (ba, bb) {
+        {
+          for (var bd = this.tryEntries.length - 1; bd >= 0; --bd) {
+            {
+              var be = this.tryEntries[bd];
+              if (be.tryLoc <= this.prev && aE.call(be, "finallyLoc") && this.prev < be.finallyLoc) {
+                {
+                  var bf = be;
+                  break;
+                }
+              }
+            }
+          }
+          bf && ("break" === ba || "continue" === ba) && bf.tryLoc <= bb && bb <= bf.finallyLoc && (bf = null);
+          var bg = bf ? bf.completion : {};
+          bg.type = ba;
+          bg.arg = bb;
+          return bf ? (this.method = "next", this.next = bf.finallyLoc, aR) : this.complete(bg);
+        }
+      },
+      complete: function (ba, bb) {
+        {
+          if ("throw" === ba.type) {
+            throw ba.arg;
+          }
+          "break" === ba.type || "continue" === ba.type ? this.next = ba.arg : "return" === ba.type ? (this.rval = this.arg = ba.arg, this.method = "return", this.next = "end") : "normal" === ba.type && bb && (this.next = bb);
+          return aR;
+        }
+      },
+      finish: function (ba) {
+        {
+          for (var bb = this.tryEntries.length - 1; bb >= 0; --bb) {
+            {
+              var bc = this.tryEntries[bb];
+              if (bc.finallyLoc === ba) {
+                this.complete(bc.completion, bc.afterLoc);
+                b4(bc);
+                return aR;
+              }
+            }
+          }
+        }
+      },
+      catch: function (ba) {
+        {
+          for (var bc = this.tryEntries.length - 1; bc >= 0; --bc) {
+            {
+              var bd = this.tryEntries[bc];
+              if (bd.tryLoc === ba) {
+                {
+                  var be = bd.completion;
+                  if ("throw" === be.type) {
+                    {
+                      var bf = be.arg;
+                      b4(bd);
+                    }
+                  }
+                  return bf;
+                }
+              }
+            }
+          }
+          throw Error("illegal catch attempt");
+        }
+      },
+      delegateYield: function (ba, bb, bc) {
+        this.delegate = {
+          iterator: b6(ba),
+          resultName: bb,
+          nextLoc: bc
+        };
+        "next" === this.method && (this.arg = aB);
+        return aR;
+      }
+    };
+    return aC;
+  }
+  function U(aA, aB) {
+    {
+      var aD = "undefined" != typeof Symbol && aA[Symbol.iterator] || aA["@@iterator"];
+      if (!aD) {
+        {
+          if (Array.isArray(aA) || (aD = function (aK, aL) {
+            {
+              if (aK) {
+                {
+                  if ("string" == typeof aK) {
+                    return V(aK, aL);
+                  }
+                  var aN = {}.toString.call(aK).slice(8, -1);
+                  "Object" === aN && aK.constructor && (aN = aK.constructor.name);
+                  return "Map" === aN || "Set" === aN ? Array.from(aK) : "Arguments" === aN || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(aN) ? V(aK, aL) : undefined;
+                }
+              }
+            }
+          }(aA)) || aB && aA && "number" == typeof aA.length) {
+            {
+              aD && (aA = aD);
+              var aE = 0;
+              var aF = function () {};
+              return {
+                s: aF,
+                n: function () {
+                  {
+                    var aK = {
+                      done: true
+                    };
+                    return aE >= aA.length ? aK : {
+                      done: false,
+                      value: aA[aE++]
+                    };
+                  }
+                },
+                e: function (aK) {
+                  {
+                    throw aK;
+                  }
+                },
+                f: aF
+              };
+            }
+          }
+          throw new TypeError("Invalid attempt to iterate non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.");
+        }
+      }
+      var aG;
+      var aH = true;
+      var aI = false;
+      return {
+        s: function () {
+          {
+            aD = aD.call(aA);
+          }
+        },
+        n: function () {
+          {
+            var aL = aD.next();
+            aH = aL.done;
+            return aL;
+          }
+        },
+        e: function (aL) {
+          {
+            aI = true;
+            aG = aL;
+          }
+        },
+        f: function () {
+          {
+            try {
+              {
+                aH || null == aD.return || aD.return();
+              }
+            } finally {
+              {
+                if (aI) {
+                  throw aG;
+                }
+              }
+            }
+          }
+        }
+      };
+    }
+  }
+  function V(aA, aB) {
+    {
+      (null == aB || aB > aA.length) && (aB = aA.length);
+      for (var aE = 0, aF = Array(aB); aE < aB; aE++) {
+        aF[aE] = aA[aE];
+      }
+      return aF;
+    }
+  }
+  function W(aA, aB, aC, aD, aE, aF, aG) {
+    {
+      try {
+        {
+          var aI = aA[aF](aG);
+          var aJ = aI.value;
+        }
+      } catch (aL) {
+        {
+          return void aC(aL);
+        }
+      }
+      aI.done ? aB(aJ) : Promise.resolve(aJ).then(aD, aE);
+    }
+  }
+  function X(aA) {
+    return function () {
+      var aC = this;
+      var aD = arguments;
+      return new Promise(function (aE, aF) {
+        var aH = aA.apply(aC, aD);
+        function aI(aK) {
+          {
+            W(aH, aE, aF, aI, aJ, "next", aK);
+          }
+        }
+        function aJ(aK) {
+          {
+            W(aH, aE, aF, aI, aJ, "throw", aK);
+          }
+        }
+        aI(undefined);
+      });
+    };
+  }
+  var a1 = {
+    enable_skip_to_animation: true,
+    render_mode: 0,
+    webview_render_wait_time: 200,
+    slide_sensitiveness: 110,
+    fobid_bgsl: true,
+    contract_rl_report: false
+  };
+  var a2 = {
+    responsed_ad_data: ""
+  };
+  var a3 = {
+    total: 999,
+    bgCount: 0,
+    monthCount: 999
+  };
+  var a4 = {
+    total: 999,
+    bgCount: 0,
+    monthCount: 999
+  };
+  var a5 = {
+    zc: a3,
+    common: a4
+  };
+  var a6 = "undefined" != typeof $task;
+  var a7 = "undefined" != typeof $loon;
+  var a8 = "undefined" != typeof $httpClient && "undefined" == typeof $loon;
+  var a9 = {
+    isVip: 1,
+    isVipBoolean: true,
+    vipType: 1,
+    payVipType: 1,
+    expireDate: 32493834549000,
+    isPayVipBoolean: true,
+    isBigVipBoolean: true,
+    bigExpireDate: 32493834549000,
+    ctExpireDate: 32493834549000,
+    actExpireDate: 32493834549000,
+    payExpireDate: 32493834549000,
+    isCtVipBoolean: true,
+    isActVipBoolean: true,
+    isSigned: 1,
+    isSignedBoolean: true,
+    signedCount: 999,
+    redFlower: 999,
+    lastOrderPrice: 0,
+    lastOrderSigned: 0
+  };
+  var aa = {
+    vipType: 1,
+    authType: 1,
+    isVip: 1,
+    payVipType: 1
+  };
+  var ab = {
+    vipType: 1,
+    authType: 1,
+    isVip: 1,
+    payVipType: 1,
+    nickname: "https://t.me/GieGie777",
+    headImg: "https://zhongdu.oss-cn-beijing.aliyuncs.com/app/20250723/17532551159065978.jpg",
+    headOuterImg: "https://bodiancdn.kuwo.cn/file/f72f9aa5b67a0310339714d8ebe9e590.gif"
+  };
+  var ac = {
+    csIsFree: 0,
+    csRemainSeconds: 0,
+    csExpireDate: 0,
+    csCanExtend: 1
+  };
+  var ad = {
+    reqinterval: 1740,
+    req_exp_list: [{
+      key: "151580",
+      value: "1"
+    }],
+    data: {
+      7002312938192279: {
+        dr: 0,
+        msg: "",
+        ret: 0,
+        list: [{
+          is_empty: 1,
+          splash_switch: a1,
+          video: "",
+          img: "",
+          interactive: {
+            end: 0,
+            is_show_track: false,
+            begin: 0,
+            track_width: 0,
+            is_open_vibrate: false,
+            title: "",
+            track_color: "#FFFFFF",
+            description: ""
+          },
+          app_landing_page: 0,
+          jump_android_market_info: null,
+          pkg_download_schema: "",
+          stay_report_url: "",
+          video_report_url: "",
+          landing_page_report_url: ""
+        }]
+      }
+    },
+    last_ads: a2,
+    msg: "",
+    dc: 0,
+    ret: 0,
+    rpt: 0
+  };
+  var ae = {
+    code: 200,
+    reqId: "",
+    data: {
+      balance: a5,
+      tips: {
+        zcTips: "高品质MP3格式，下载后永久拥有。波点大会员每月获赠999张珍藏下载券（当月有效，不可累积）"
+      }
+    },
+    msg: "success",
+    profileId: "site",
+    curTime: 0
+  };
+  function af(aA) {
+    {
+      try {
+        {
+          return JSON.parse(aA);
+        }
+      } catch (aD) {
+        {
+          return null;
+        }
+      }
+    }
+  }
+  function ag() {
+    {
+      var aB = arguments.length > 0 && undefined !== arguments[0] ? arguments[0] : 32;
+      var aC = {
+        length: aB
+      };
+      return Array.from(aC, function () {
+        {
+          return "abcdef0123456789"[16 * Math.random() | 0];
+        }
+      }).join("");
+    }
+  }
+  function ah(aA, aB) {
+    {
+      if (!aA) {
+        return null;
+      }
+      try {
+        {
+          return new URL(aA).searchParams.get(aB);
+        }
+      } catch (aG) {
+        {
+          var aD = aA.match(new RegExp("".concat(aB, "=([^&]+)")));
+          return aD ? decodeURIComponent(aD[1]) : null;
+        }
+      }
+    }
+  }
+  function ai(aA) {
+    {
+      var aC = arguments.length > 1 && undefined !== arguments[1] ? arguments[1] : 5000;
+      return new Promise(function (aD) {
+        {
+          var aF = {
+            url: aA,
+            timeout: aC
+          };
+          var aG = {
+            url: aA,
+            timeout: aC
+          };
+          var aH = {
+            statusCode: 500,
+            body: null
+          };
+          a6 ? $task.fetch(aF).then(aD) : a7 || a8 ? $httpClient.get(aG, function (aI, aJ, aK) {
+            {
+              var aL = {
+                statusCode: aI ? 500 : aJ.status || 200,
+                body: aI ? null : aK
+              };
+              aD(aL);
+            }
+          }) : aD(aH);
+        }
       });
     }
-  };
-}
-const handleUserInfo = withResponseBody(_0x1f89cb => {
-  _0x1f89cb.data = _0x1f89cb.data || {};
-  _0x1f89cb.data.payInfo = Object.assign(_0x1f89cb.data.payInfo || {}, VIP_CONFIG.payInfo);
-  _0x1f89cb.data.userInfo = Object.assign(_0x1f89cb.data.userInfo || {}, VIP_CONFIG.userInfo);
-});
-const handleLogin = withResponseBody(_0x4cb8ba => {
-  if (!_0x4cb8ba.data) {
-    return;
   }
-  _0x4cb8ba.data.payInfo = Object.assign(_0x4cb8ba.data.payInfo || {}, VIP_CONFIG.payInfo);
-  _0x4cb8ba.data.userInfo = Object.assign(_0x4cb8ba.data.userInfo || {}, VIP_CONFIG.loginInfo);
-  _0x4cb8ba.data.userFreeInfo = Object.assign(_0x4cb8ba.data.userFreeInfo || {}, VIP_CONFIG.freeInfo);
-  if (_0x4cb8ba.data.userInfo) {
+  function aj() {
     {
-      _0x4cb8ba.data.userInfo.headOuterImg = VIP_CONFIG.userInfo.headOuterImg;
+      var aA = arguments.length > 0 && undefined !== arguments[0] ? arguments[0] : {};
+      "undefined" != typeof $done && $done(aA);
     }
   }
-});
-function handleSplashAd() {
-  done({
-    body: JSON.stringify(EMPTY_AD_RESPONSE)
-  });
-}
-const handleGlobalConfig = withResponseBody(_0x28cc3f => {
-  if (!_0x28cc3f.data) {
-    return;
-  }
-  _0x28cc3f.data.showShopEntry = false;
-  _0x28cc3f.data.idolTabShow = true;
-});
-const handleHomeModule = withResponseBody(_0x2d97b8 => {
-  _0x2d97b8.data = _0x2d97b8.data || {};
-  ["bannerList", "adList", "adInfo", "promotionList", "commercialList", "ads", "advertisement", "promotion", "focusList", "recommendAD", "specialList"].forEach(_0x50e4af => {
-    if (_0x2d97b8.data[_0x50e4af]) {
-      delete _0x2d97b8.data[_0x50e4af];
+  function ak(aA, aB) {
+    {
+      return "https://mobi.kuwo.cn/mobi.s?f=web&user=".concat((aC = 1000000, aD = 10000000, Math.floor(Math.random() * (aD - aC + 1)) + aC), "&source=kwplayerhd_ar_4.3.0.8_tianbao_T1A_qirui.apk&type=convert_url_with_sign&br=").concat(aB, "&rid=").concat(aA);
+      var aC;
+      var aD;
     }
-  });
-});
-function handleEmptyResponse() {
-  const _0x26d9ce = {
-    code: 439,
-    data: {}
-  };
-  done({
-    body: JSON.stringify(_0x26d9ce)
-  });
-}
-function handleCheckRight() {
-  const _0x5c589a = {
-    status: 7
-  };
-  done({
-    body: JSON.stringify({
-      code: 200,
-      reqId: generateRandomId(32),
-      data: _0x5c589a,
-      msg: "success",
-      profileId: "site",
-      curTime: Date.now()
-    })
-  });
-}
-async function getPlayAudioData(_0x8617b8) {
-  if (!_0x8617b8) {
-    return null;
   }
-  try {
-    let _0x9648c = generateAudioUrl(_0x8617b8, "320kmp3");
-    let _0x1dd24c = await httpRequest(_0x9648c, 3000);
-    let _0x58cf29 = safeJsonParse(_0x1dd24c.body);
-    if (_0x58cf29?.["code"] === 200 && _0x58cf29?.["data"]?.["url"]) {
-      {
-        const _0x347096 = parseInt(_0x58cf29.data.bitrate) || 0;
-        if (_0x347096 > 128 && _0x347096 <= 320) {
-          return _0x58cf29;
+  function al(aA) {
+    {
+      return function () {
+        {
+          var aD = af($response.body);
+          if (!aD) {
+            return aj();
+          }
+          aA(aD);
+          aj({
+            body: JSON.stringify(aD)
+          });
         }
-      }
+      };
     }
-    _0x9648c = generateAudioUrl(_0x8617b8, "192kmp3");
-    _0x1dd24c = await httpRequest(_0x9648c, 3000);
-    _0x58cf29 = safeJsonParse(_0x1dd24c.body);
-    return _0x58cf29?.["code"] === 200 && _0x58cf29?.["data"]?.["url"] ? _0x58cf29 : null;
-  } catch {
+  }
+  var am = al(function (aA) {
     {
-      return null;
+      aA.data = aA.data || {};
+      aA.data.payInfo = Object.assign(aA.data.payInfo || {}, a9);
+      aA.data.userInfo = Object.assign(aA.data.userInfo || {}, ab);
     }
-  }
-}
-async function getDownloadAudioData(_0x4d24aa) {
-  if (!_0x4d24aa) {
-    return null;
-  }
-  try {
-    {
-      const _0x1f2abc = generateAudioUrl(_0x4d24aa, "2000kflac");
-      const _0xa9251b = await httpRequest(_0x1f2abc, 3000);
-      const _0x3a8885 = safeJsonParse(_0xa9251b.body);
-      return _0x3a8885?.["code"] === 200 && _0x3a8885?.["data"]?.["url"] ? _0x3a8885 : null;
-    }
-  } catch {
-    return null;
-  }
-}
-async function handleAudioUrl() {
-  const _0x456acb = getUrlParam($request.url, "musicId");
-  const _0x31767c = await getPlayAudioData(_0x456acb);
-  const _0xa3fa71 = {
-    body: $response.body
-  };
-  if (!_0x31767c) {
-    return done(_0xa3fa71);
-  }
-  done({
-    body: JSON.stringify({
-      code: 200,
-      reqId: _0x31767c.data?.["sig"] || generateRandomId(32),
-      data: {
-        bitrate: parseInt(_0x31767c.data?.["bitrate"]) || 320,
-        respCode: 200,
-        audioUrl: _0x31767c.data.url,
-        audioHttpsUrl: _0x31767c.data.url,
-        p2pAudioSourceId: _0x31767c.data?.["p2p_audiosourceid"] || "",
-        format: _0x31767c.data?.["format"] || "mp3"
-      },
-      msg: "success",
-      profileId: "site",
-      curTime: Date.now()
-    })
   });
-}
-async function handleDownloadInfo() {
-  const _0xb1a89f = getUrlParam($request.url, "musicId");
-  const _0x28ac03 = await getDownloadAudioData(_0xb1a89f);
-  const _0x5ebe2e = {
-    body: $response.body
-  };
-  if (!_0x28ac03) {
-    return done(_0x5ebe2e);
+  var an = al(function (aA) {
+    aA.data && (aA.data.payInfo = Object.assign(aA.data.payInfo || {}, a9), aA.data.userInfo = Object.assign(aA.data.userInfo || {}, aa), aA.data.userFreeInfo = Object.assign(aA.data.userFreeInfo || {}, ac), aA.data.userInfo && (aA.data.userInfo.headOuterImg = ab.headOuterImg));
+  });
+  var ao = al(function (aA) {
+    aA.data && (aA.data.showShopEntry = false, aA.data.idolTabShow = true);
+  });
+  var ap = al(function (aA) {
+    aA.data = aA.data || {};
+    ["bannerList", "adList", "adInfo", "promotionList", "commercialList", "ads", "advertisement", "promotion", "focusList", "recommendAD", "specialList"].forEach(function (aB) {
+      aA.data[aB] && delete aA.data[aB];
+    });
+  });
+  function aq() {
+    var aA = {
+      code: 439,
+      data: {}
+    };
+    aj({
+      body: JSON.stringify(aA)
+    });
   }
-  done({
-    body: JSON.stringify({
-      code: 200,
-      reqId: generateRandomId(32),
-      data: {
-        url: _0x28ac03.data.url,
-        duration: _0x28ac03.data.duration,
-        audioInfo: {
-          size: "15.2Mb",
-          p2pAudioSourceId: _0x28ac03.data?.["p2p_audiosourceid"] || generateRandomId(40),
-          level: "p",
-          bitrate: _0x28ac03.data?.["bitrate"] ? _0x28ac03.data.bitrate.toString() : "2000",
-          format: _0x28ac03.data?.["format"] || "flac"
+  function ar(aA) {
+    return as.apply(this, arguments);
+  }
+  function as() {
+    as = X(R().mark(function aA(aB) {
+      var aD;
+      var aE;
+      var aF;
+      var aG;
+      var aH;
+      var aI;
+      var aJ;
+      var aK;
+      var aL;
+      return R().wrap(function (aM) {
+        for (;;) {
+          switch (aM.prev = aM.next) {
+            case 0:
+              if (aB) {
+                aM.next = 2;
+                break;
+              }
+              return aM.abrupt("return", null);
+            case 2:
+              var aN = {
+                bitrate: "2000kflac",
+                minBitrate: 320,
+                maxBitrate: 2000
+              };
+              var aO = {
+                bitrate: "320kmp3",
+                minBitrate: 128,
+                maxBitrate: 320
+              };
+              var aP = {
+                bitrate: "192kmp3",
+                minBitrate: 0,
+                maxBitrate: 192
+              };
+              aD = [aN, aO, aP];
+              aM.prev = 3;
+              aE = 0;
+              aF = aD;
+            case 5:
+              if (!(aE < aF.length)) {
+                aM.next = 21;
+                break;
+              }
+              aH = aF[aE];
+              aI = ak(aB, aH.bitrate);
+              aM.next = 10;
+              return ai(aI, 3000);
+            case 10:
+              if (aJ = aM.sent, aK = af(aJ.body), 200 !== (null == aK ? undefined : aK.code) || null == aK || null === (aG = aK.data) || undefined === aG || !aG.url) {
+                aM.next = 18;
+                break;
+              }
+              if (aL = parseInt(aK.data.bitrate) || 0, 0 !== aH.minBitrate) {
+                aM.next = 16;
+                break;
+              }
+              return aM.abrupt("return", aK);
+            case 16:
+              if (!(aL > aH.minBitrate && aL <= aH.maxBitrate)) {
+                aM.next = 18;
+                break;
+              }
+              return aM.abrupt("return", aK);
+            case 18:
+              aE++;
+              aM.next = 5;
+              break;
+            case 21:
+              return aM.abrupt("return", null);
+            case 24:
+              aM.prev = 24;
+              aM.t0 = aM.catch(3);
+              return aM.abrupt("return", null);
+            case 27:
+            case "end":
+              return aM.stop();
+          }
         }
-      },
-      msg: "success",
-      profileId: "site",
-      curTime: Date.now()
-    })
-  });
-}
-function handleDownloadConfig() {
-  const _0x12a67e = JSON.parse(JSON.stringify(DOWNLOAD_CONFIG_RESPONSE));
-  _0x12a67e.reqId = generateRandomId(32);
-  _0x12a67e.curTime = Date.now();
-  done({
-    body: JSON.stringify(_0x12a67e)
-  });
-}
-const _0x14d8ce = {
-  pattern: "/api/ucenter/users/pub",
-  handler: handleUserInfo
-};
-const _0x5bfc2a = {
-  pattern: "/api/ucenter/users/login",
-  handler: handleLogin
-};
-const _0x15bac2 = {
-  pattern: "/api/play/music/v2/audioUrl",
-  handler: handleAudioUrl
-};
-const _0x5bcf1e = {
-  pattern: "/api/play/music/v2/checkRight",
-  handler: handleCheckRight
-};
-const _0x53b146 = {
-  pattern: "/api/service/music/download/info",
-  handler: handleDownloadInfo
-};
-const _0x28e2b4 = {
-  pattern: "/api/service/music/download/config",
-  handler: handleDownloadConfig
-};
-const _0x66c524 = {
-  pattern: "/api/service/home/module",
-  handler: handleHomeModule
-};
-const _0x2d5424 = {
-  pattern: "/api/service/global/config/scene",
-  handler: handleGlobalConfig
-};
-const _0x1445c3 = {
-  pattern: "l.qq.com/exapp?adposcount",
-  handler: handleSplashAd
-};
-const _0x5c94bd = {
-  pattern: "/api/play/advert/info",
-  handler: handleEmptyResponse
-};
-const _0x4d18f2 = {
-  pattern: "/api/service/global/config/vipEnter",
-  handler: handleEmptyResponse
-};
-const _0x5acabe = {
-  pattern: "/api/service/banner/positions",
-  handler: handleEmptyResponse
-};
-const _0xa00aa = {
-  pattern: "/api/search/topic/word/list",
-  handler: handleEmptyResponse
-};
-const _0x58cd2f = {
-  pattern: "/api/pay/vip/invitation/assist/popup",
-  handler: handleEmptyResponse
-};
-const _0x4bb605 = {
-  pattern: "/api/pay/sp/actVip",
-  handler: handleEmptyResponse
-};
-const _0x1de04f = {
-  pattern: "/api/pay/vip/invitation/swell/",
-  handler: handleEmptyResponse
-};
-const _0x114212 = {
-  pattern: "/api/pay/audition/url",
-  handler: handleEmptyResponse
-};
-const _0x5bac22 = {
-  pattern: "/api/service/advert/config",
-  handler: handleEmptyResponse
-};
-const _0xecf539 = {
-  pattern: "/api/advert/free/config",
-  handler: handleEmptyResponse
-};
-const _0x4ddef6 = {
-  pattern: "/api/pay/vip/lowPriceText",
-  handler: handleEmptyResponse
-};
-const _0xe8fa26 = {
-  pattern: "/api/popup/start/info",
-  handler: handleEmptyResponse
-};
-const _0x53f2c0 = {
-  pattern: "ab-bodian.kuwo.cn/abtest/ui/info",
-  handler: handleEmptyResponse
-};
-const _0xc3091b = {
-  pattern: "/api/rec/feed",
-  handler: handleEmptyResponse
-};
-const _0x464102 = {
-  pattern: "/style_factory/template_list",
-  handler: handleEmptyResponse
-};
-const ROUTE_MAP = [_0x14d8ce, _0x5bfc2a, _0x15bac2, _0x5bcf1e, _0x53b146, _0x28e2b4, _0x66c524, _0x2d5424, _0x1445c3, _0x5c94bd, _0x4d18f2, _0x5acabe, _0xa00aa, _0x58cd2f, _0x4bb605, _0x1de04f, _0x114212, _0x5bac22, _0xecf539, _0x4ddef6, _0xe8fa26, _0x53f2c0, _0xc3091b, _0x464102];
-function main() {
-  const _0x5ae3c0 = $request?.["url"] || "";
-  try {
-    for (const {
-      pattern: _0x1767b6,
-      handler: _0x5739ab
-    } of ROUTE_MAP) {
-      if (_0x5ae3c0.includes(_0x1767b6)) {
-        return _0x5739ab();
-      }
-    }
-    done();
-  } catch {
-    done();
+      }, aA, null, [[3, 24]]);
+    }));
+    return as.apply(this, arguments);
   }
-}
-if (typeof $response !== "undefined") {
-  main();
-} else {
-  done();
-}
+  function at() {
+    at = X(R().mark(function aB() {
+      var aD;
+      var aE;
+      var aF;
+      var aG;
+      var aH;
+      var aI;
+      return R().wrap(function (aJ) {
+        for (;;) {
+          switch (aJ.prev = aJ.next) {
+            case 0:
+              aH = ah($request.url, "musicId");
+              aJ.next = 3;
+              return ar(aH);
+            case 3:
+              if (aI = aJ.sent, aI) {
+                aJ.next = 6;
+                break;
+              }
+              var aK = {
+                body: $response.body
+              };
+              return aJ.abrupt("return", aj(aK));
+            case 6:
+              aj({
+                body: JSON.stringify({
+                  code: 200,
+                  reqId: (null === (aD = aI.data) || undefined === aD ? undefined : aD.sig) || ag(32),
+                  data: {
+                    bitrate: parseInt(null === (aE = aI.data) || undefined === aE ? undefined : aE.bitrate) || 320,
+                    respCode: 200,
+                    audioUrl: aI.data.url,
+                    audioHttpsUrl: aI.data.url,
+                    p2pAudioSourceId: (null === (aF = aI.data) || undefined === aF ? undefined : aF.p2p_audiosourceid) || "",
+                    format: (null === (aG = aI.data) || undefined === aG ? undefined : aG.format) || "mp3"
+                  },
+                  msg: "success",
+                  profileId: "site",
+                  curTime: Date.now()
+                })
+              });
+            case 7:
+            case "end":
+              return aJ.stop();
+          }
+        }
+      }, aB);
+    }));
+    return at.apply(this, arguments);
+  }
+  function au() {
+    au = X(R().mark(function aB() {
+      var aC;
+      var aD;
+      var aE;
+      var aF;
+      var aG;
+      var aH;
+      var aI;
+      var aJ;
+      return R().wrap(function (aK) {
+        for (;;) {
+          switch (aK.prev = aK.next) {
+            case 0:
+              aF = ah($request.url, "musicId");
+              aK.next = 3;
+              return ar(aF);
+            case 3:
+              if (aG = aK.sent, aG) {
+                aK.next = 6;
+                break;
+              }
+              var aL = {
+                body: $response.body
+              };
+              return aK.abrupt("return", aj(aL));
+            case 6:
+              aH = parseInt(null === (aC = aG.data) || undefined === aC ? undefined : aC.bitrate) || 320;
+              aI = (null === (aD = aG.data) || undefined === aD ? undefined : aD.format) || "mp3";
+              aJ = aH >= 1000 ? "25.6Mb" : aH >= 320 ? "8.5Mb" : "5.2Mb";
+              aj({
+                body: JSON.stringify({
+                  code: 200,
+                  reqId: ag(32),
+                  data: {
+                    url: aG.data.url,
+                    duration: aG.data.duration,
+                    audioInfo: {
+                      size: aJ,
+                      p2pAudioSourceId: (null === (aE = aG.data) || undefined === aE ? undefined : aE.p2p_audiosourceid) || ag(40),
+                      level: "p",
+                      bitrate: aH.toString(),
+                      format: aI
+                    }
+                  },
+                  msg: "success",
+                  profileId: "site",
+                  curTime: Date.now()
+                })
+              });
+            case 10:
+            case "end":
+              return aK.stop();
+          }
+        }
+      }, aB);
+    }));
+    return au.apply(this, arguments);
+  }
+  var av = {
+    pattern: "/api/ucenter/users/pub",
+    handler: am
+  };
+  var aw = {
+    pattern: "/api/ucenter/users/login",
+    handler: an
+  };
+  var ax = {
+    pattern: "/api/play/advert/info",
+    handler: aq
+  };
+  var ay = {
+    pattern: "/api/service/global/config/vipEnter",
+    handler: aq
+  };
+  var az = [av, aw, {
+    pattern: "/api/play/music/v2/audioUrl",
+    handler: function () {
+      return at.apply(this, arguments);
+    }
+  }, {
+    pattern: "/api/play/music/v2/checkRight",
+    handler: function () {
+      var aA = {
+        status: 7
+      };
+      aj({
+        body: JSON.stringify({
+          code: 200,
+          reqId: ag(32),
+          data: aA,
+          msg: "success",
+          profileId: "site",
+          curTime: Date.now()
+        })
+      });
+    }
+  }, {
+    pattern: "/api/service/music/download/info",
+    handler: function () {
+      return au.apply(this, arguments);
+    }
+  }, {
+    pattern: "/api/service/music/download/config",
+    handler: function () {
+      var aA = JSON.parse(JSON.stringify(ae));
+      aA.reqId = ag(32);
+      aA.curTime = Date.now();
+      aj({
+        body: JSON.stringify(aA)
+      });
+    }
+  }, {
+    pattern: "/api/service/home/module",
+    handler: ap
+  }, {
+    pattern: "/api/service/global/config/scene",
+    handler: ao
+  }, {
+    pattern: "l.qq.com/exapp?adposcount",
+    handler: function () {
+      aj({
+        body: JSON.stringify(ad)
+      });
+    }
+  }, ax, ay, {
+    pattern: "/api/service/banner/positions",
+    handler: aq
+  }, {
+    pattern: "/api/search/topic/word/list",
+    handler: aq
+  }, {
+    pattern: "/api/pay/vip/invitation/assist/popup",
+    handler: aq
+  }, {
+    pattern: "/api/pay/sp/actVip",
+    handler: aq
+  }, {
+    pattern: "/api/pay/vip/invitation/swell/",
+    handler: aq
+  }, {
+    pattern: "/api/pay/audition/url",
+    handler: aq
+  }, {
+    pattern: "/api/service/advert/config",
+    handler: aq
+  }, {
+    pattern: "/api/advert/free/config",
+    handler: aq
+  }, {
+    pattern: "/api/pay/vip/lowPriceText",
+    handler: aq
+  }, {
+    pattern: "/api/popup/start/info",
+    handler: aq
+  }, {
+    pattern: "ab-bodian.kuwo.cn/abtest/ui/info",
+    handler: aq
+  }, {
+    pattern: "/api/rec/feed",
+    handler: aq
+  }, {
+    pattern: "/style_factory/template_list",
+    handler: aq
+  }];
+  "undefined" != typeof $response ? function () {
+    var aA;
+    var aB = (null === (aA = $request) || undefined === aA ? undefined : aA.url) || "";
+    try {
+      var aC;
+      var aD = U(az);
+      try {
+        for (aD.s(); !(aC = aD.n()).done;) {
+          var aE = aC.value;
+          var aF = aE.pattern;
+          var aG = aE.handler;
+          if (aB.includes(aF)) {
+            return aG();
+          }
+        }
+      } catch (aH) {
+        aD.e(aH);
+      } finally {
+        aD.f();
+      }
+      aj();
+    } catch (aI) {
+      aj();
+    }
+  }() : aj();
+})();
