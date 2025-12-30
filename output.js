@@ -1,4 +1,4 @@
-//Mon Dec 29 2025 16:35:47 GMT+0000 (Coordinated Universal Time)
+//Tue Dec 30 2025 00:50:07 GMT+0000 (Coordinated Universal Time)
 //Base:<url id="cv1cref6o68qmpt26ol0" type="url" status="parsed" title="GitHub - echo094/decode-js: JS混淆代码的AST分析工具 AST analysis tool for obfuscated JS code" wc="2165">https://github.com/echo094/decode-js</url>
 //Modify:<url id="cv1cref6o68qmpt26olg" type="url" status="parsed" title="GitHub - smallfawn/decode_action: 世界上本来不存在加密，加密的人多了，也便成就了解密" wc="741">https://github.com/smallfawn/decode_action</url>
 const url = $request.url;
@@ -121,12 +121,12 @@ if (url.includes("/ChapBatAuthWithPD")) {
         }
         let obj = JSON.parse(body);
         obj.vipStatus = 1;
-        obj.introinfo && obj.introinfo.detailmsg && (obj.introinfo.detailmsg.equityTxt = "我的天呀-ios鸡神鐮磋В", obj.introinfo.detailmsg.txtStyle = 2, obj.introinfo.detailmsg.equityDisplay = true);
+        obj.introinfo && obj.introinfo.detailmsg && (obj.introinfo.detailmsg.equityTxt = "我的天呀-ios鸡神破解", obj.introinfo.detailmsg.txtStyle = 2, obj.introinfo.detailmsg.equityDisplay = true);
         $done({
           body: JSON.stringify(obj)
         });
       } catch (_0x405349) {
-        console.log("处理 queryDetailPage 出閿�:", _0x405349);
+        console.log("处理 queryDetailPage 出错:", _0x405349);
         $done({});
       }
     } else {
